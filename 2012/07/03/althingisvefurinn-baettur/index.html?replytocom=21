@@ -38,6 +38,7 @@ var objectL10n = {"blaskan_navigation_title":"- Navigation -"};
 <script type='text/javascript' src='../../../../wp-content/plugins/fd-footnotes/fdfootnotes.js?ver=1.3'></script>
 <script type='text/javascript' src='https://platform.twitter.com/widgets.js?ver=3.4.1'></script>
 <link rel='prev' title='Dómnefndir og símakosning í júróvisjón' href='../../../06/18/domnefndir-og-simakosning-i-jurovisjon/index.html' />
+<link rel='next' title='Hinir kapítalísku Ólympíuleikar' href='../../17/hinir-kapitalisku-olympiuleikar/index.html' />
 <link rel='canonical' href='index.html' />
 <link rel='shortlink' href='http://go.gogn.in/N8cm2P' />
 <meta name='robots' content='noindex,nofollow' />
@@ -62,7 +63,7 @@ body.custom-background { background-color: #050000; }
 <div id="site">
 	<div id="wrapper">
 		<header id="header" role="banner">
-		  <figure><a href="../../../../index.html" title="Gögn" rel="home"><img src="../../../../wp-content/uploads/2012/05/cover.png" alt="Gögn"></a></figure><div id="site-name"><a href="../../../../index.html" title="Gögn" rel="home">Gögn</a></div><nav id="nav" role="navigation"><div class="menu"><ul id="menu-top-1" ><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a href="../../../../um/index.html" >Um þennan vef</a></li>
+		  <figure><a href="../../../../index.html" title="Gögn" rel="home"><img src="../../../../wp-content/uploads/2012/07/cropped-Screen-shot-2012-07-17-at-4.06.05-PM.png" alt="Gögn"></a></figure><div id="site-name"><a href="../../../../index.html" title="Gögn" rel="home">Gögn</a></div><nav id="nav" role="navigation"><div class="menu"><ul id="menu-top-1" ><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a href="../../../../um/index.html" >Um þennan vef</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a href="../../../../twitter-thjarkar/index.html" >Twitter þjarkar</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-265"><a title="Hundarnir í Reykjavík" href="../../../06/13/hundar-i-nagrenninu/index.html" >Hundarnir í Reykjavík</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-270"><a href="../../../../hafdu-samband/index.html" >Hafðu samband</a></li>
@@ -85,7 +86,7 @@ body.custom-background { background-color: #050000; }
 			<div class="content">
 				<p>Það er eins algild skoðun og getur verið að vefur Alþingis þarfnist stórkostlegra endurbóta. Hlutar vefsins eru, að mér sýnist, keyrðir á perl skriftum frá 1995 og framsetning efnis (sem og aðgengi að því) er fyrir neðan allar hellur.</p>
 <p>Eitt sem truflar mig er útlit á ræðum og lagasafni. Engar spássíur eru í texta, sem gerir hann ill-læsilegan. Letur er í smærra lagi og fjöldi neðanmálsgreina gerir línubil ójafnt.</p>
-<p>Svona líta l<a title="Lög um framboð og kjör forseta Íslands" href="http://www.althingi.is/lagas/nuna/1945036.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.althingi.is/lagas/nuna/1945036.html']);" target="_blank">ög um framboð og kjör forseta Íslands</a> út á Alþingisvefnum:</p>
+<p><span id="more-264"></span>Svona líta l<a title="Lög um framboð og kjör forseta Íslands" href="http://www.althingi.is/lagas/nuna/1945036.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.althingi.is/lagas/nuna/1945036.html']);" target="_blank">ög um framboð og kjör forseta Íslands</a> út á Alþingisvefnum:</p>
 <p><a href="../../../../wp-content/uploads/2012/07/2012.jpg" ><img class="alignnone size-medium wp-image-276" title="2012" src="../../../../wp-content/uploads/2012/07/2012-300x177.jpg" alt="" width="300" height="177" /></a></p>
 <p>Nú eru til ýmsar leiðir til að gera útlit vefsíðna læsilegra. Ein er sú að notast við flýtileið frá Readability. Þá líta lögin<a title="Lög um forsetakjör með útlitsbreytingum Readability.com" href="http://www.readability.com/read?url=http%3A//www.althingi.is/lagas/nuna/1945036.html" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.readability.com/read?url=http%3A//www.althingi.is/lagas/nuna/1945036.html']);" target="_blank"> svona út</a>:</p>
 <p>&nbsp;</p>
@@ -160,7 +161,7 @@ body.custom-background { background-color: #050000; }
 							<input type='hidden' name='comment_post_ID' value='264' id='comment_post_ID' />
 <input type='hidden' name='comment_parent' id='comment_parent' value='21' />
 						</p>
-						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="748f2c09be" /></p>					</form>
+						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="98c2047a48" /></p>					</form>
 							</div><!-- #respond -->
 			<script type="text/javascript">
     jQuery(document).ready(function() {
@@ -177,7 +178,7 @@ body.custom-background { background-color: #050000; }
 <!-- / #comments -->		
 				  <nav class="post-nav" role="navigation">
 				<div class="nav-previous"><a href="../../../06/18/domnefndir-og-simakosning-i-jurovisjon/index.html" rel="prev"><span class="meta-nav"></span> Dómnefndir og símakosning í júróvisjón</a></div>
-				<div class="nav-next"></div>
+				<div class="nav-next"><a href="../../17/hinir-kapitalisku-olympiuleikar/index.html" rel="next">Hinir kapítalísku Ólympíuleikar <span class="meta-nav"></span></a></div>
 			</nav>
 			<!-- / .post-nav -->
 				
@@ -205,11 +206,11 @@ Með sérstöku stílsniði fyrir vefi má bæta læsileika þeirra umtalsvert.
 <a title="althingi.is stílsnið fyrir Stylebot" href="http://stylebot.me/styles/1487" target="_blank">Hér</a> er stílsnið fyrir Alþingsivefinn fyrir Stylebot í Chrome og <a title="Stílsnið fyrir Stylish í Firefox" href="http://userstyles.org/styles/68648/althingi-is-readability" target="_blank">hér</a> fyrir Stylish í Firefox. Stílsniðin eru einnig <a href="https://github.com/pallih/althingi.is-css-styles">hér</a> á github
 </div>
 </section>		<section id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="title">Nýlegt</h3>		<ul>
+				<li><a href="../../17/hinir-kapitalisku-olympiuleikar/index.html" title="Hinir kapítalísku Ólympíuleikar">Hinir kapítalísku Ólympíuleikar</a></li>
 				<li><a href="index.html" title="Alþingisvefurinn bættur">Alþingisvefurinn bættur</a></li>
 				<li><a href="../../../06/18/domnefndir-og-simakosning-i-jurovisjon/index.html" title="Dómnefndir og símakosning í júróvisjón">Dómnefndir og símakosning í júróvisjón</a></li>
 				<li><a href="../../../06/13/hundar-i-nagrenninu/index.html" title="Hundar í nágrenninu">Hundar í nágrenninu</a></li>
 				<li><a href="../../../05/29/hver-er-q/index.html" title="Hver er q?">Hver er q?</a></li>
-				<li><a href="../../../05/28/dead-negro-hollow/index.html" title="Dead Negro Hollow">Dead Negro Hollow</a></li>
 				</ul>
 		</section><section id="archives-2" class="widget widget_archive"><h3 class="title">Safn</h3>		<ul>
 			<li><a href='../../index.html' title='July 2012'>July 2012</a></li>
