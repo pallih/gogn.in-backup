@@ -324,7 +324,7 @@ Max length: 67</p></blockquote>
 							<input type='hidden' name='comment_post_ID' value='159' id='comment_post_ID' />
 <input type='hidden' name='comment_parent' id='comment_parent' value='9' />
 						</p>
-						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="f3ed8ee723" /></p>					</form>
+						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="1c54f78b73" /></p>					</form>
 							</div><!-- #respond -->
 			<script type="text/javascript">
     jQuery(document).ready(function() {
