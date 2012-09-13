@@ -1,0 +1,217 @@
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <title>Maraþon 2012 - gogn.in</title>
+    <meta name="description" content="">
+    <meta name="author" content="Páll Hilmarsson">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+
+    <link rel="stylesheet" href="stylesheets/base.css">
+    <link rel="stylesheet" href="stylesheets/skeleton.css">
+    <link rel="stylesheet" href="stylesheets/layout.css">
+  <link type="text/css" href="css/ui-lightness/jquery-ui-1.8.23.custom.css" rel="stylesheet" />
+
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+
+    <script type="text/javascript" src="js/jquery-1.8.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery-ui-1.8.23.custom.min.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script>
+      google.load('visualization', '1.0', {'packages':['corechart,table']});
+      </script>
+<meta property="og:title" content="G&#xf6;gn - Reykjav&#xed;kurmara&#xfe;on 2012" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://gogn.in/marathon" />
+<meta property="og:image" content="" />
+<meta property="og:site_name" content="G&#xf6;gn: Reykjav&#xed;kurmara&#xfe;on 2012" />
+<meta property="fb:admins" content="222408197873245" />
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31101018-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div class="container">
+<div class="sixteen columns">
+            <div id="result"></div>
+            
+        <div class="fb-like" data-href="http://gogn.in/marathon" data-send="true" data-width="450" data-show-faces="false"></div>
+    	<br/><br /><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://gogn.in/marathon" data-text="Gögn: Reykjavíkurmaraþon 2012" data-via="pallih">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    <div><br /><br /><h2>Sæti</h2>Línuritið sýnir sæti keppandans í gegnum hlaupið.</div>
+            <div id ="linechart"></div>
+                <div><br /><br /><h2>Hlutföll</h2>Súluritið sýnir hlutfall keppanda sem voru fyrir framan og aftan hlauparann.</div>
+
+            <div id ="columnchart"></div>
+            <div><br /><br /><h2>Tafla</h2></div>
+
+    <div id="table"></div>
+            <div id = "footnote"><br /><br />Hrágögn fengin frá <a href="http://marathon.is">marathon.is</a>.<br /><br /> Unnið af Páli Hilmarssyni fyrir <a href="../index.html">gogn.in</a></a></div>
+        </div>
+    </div>
+<script>
+      
+    var linechartdata = new google.visualization.DataTable();
+    var tabledata = new google.visualization.DataTable();
+    var columnchartdata = new google.visualization.DataTable();
+    
+    try
+  {
+  var resultjson = {"final_place":"635","byssutimi":"5:26:48","place_10km":"576","place_20km":"587","place_21km":"583","place_25km":"590","place_30km":"608","place_37km":"619","place_10km_sex":"435","place_20km_sex":"444","place_21km_sex":"442","place_25km_sex":"442","place_30km_sex":"457","place_37km_sex":"461","place_chiptime":"632","place_chiptime_sex":"468","name":"Robert Carl Cluness","year":"1976","cat":"18 - 39 \u00e1ra","group":"IS101","time_10km":"1:04:00","time_20km":"2:09:42","time_21km":"2:16:37","time_25km":"2:47:24","time_30km":"3:28:36","time_37km":"4:34:59","flogutimi":"5:25:00","final_place_sex":"471","sex":"m","nr":"13","age":"36","country":"ISL"};
+  }
+catch(err)
+  {
+ alert("Enginn keppandi fannst. Athugaðu hvort þú hefur slegið rétt inn!");
+  }
+    
+var fornafn ="";
+var sex_fornafn = "";
+var total ="";
+if (resultjson.sex=="m"){
+ fornafn = "hann";
+ kyn = "Karlar";
+ sex_fornafn = "körlum";
+ total = "487";
+ fornafn_case = "honum";
+}
+else {
+    fornafn = "hún";
+    sex_fornafn = "konum";
+    kyn = "Konur";
+    total = "188";
+    fornafn_case = "henni";
+}
+
+function roundNumber(num, dec) {
+    var result = Math.round(num*Math.pow(10,dec))/Math.pow(10,dec);
+    return result;
+}
+
+    linechartdata.addColumn('string', '');
+      linechartdata.addColumn('number', resultjson.name);
+      linechartdata.addRows([
+        ['10 km', parseInt(resultjson.place_10km)],
+        ['20 km', parseInt(resultjson.place_20km)],
+        ['21,1 km', parseInt(resultjson.place_21km)],
+        ['25 km', parseInt(resultjson.place_25km)],
+        ['30 km', parseInt(resultjson.place_30km)],
+        
+        ['37.2 km', parseInt(resultjson.place_37km)],
+        ['42.2 km', parseInt(resultjson.final_place)]
+      ]);
+
+          columnchartdata.addColumn('string', '');
+        columnchartdata.addColumn('number', 'Fyrir aftan');
+      columnchartdata.addColumn('number', 'Fyrir framan');
+      columnchartdata.addRows([
+        ['10 km', roundNumber(Math.abs((parseInt(resultjson.place_10km) / 675)  -1),2), roundNumber((parseInt(resultjson.place_10km) / 675),2 )],
+    ['20 km', roundNumber(Math.abs((parseInt(resultjson.place_20km) / 675)  -1),2), roundNumber((parseInt(resultjson.place_20km) / 675),2 )],
+    ['21.1 km', roundNumber(Math.abs((parseInt(resultjson.place_21km) / 675)  -1),2),roundNumber((parseInt(resultjson.place_21km) / 675),2 )],
+    ['25 km', roundNumber(Math.abs((parseInt(resultjson.place_25km) / 675)  -1),2),roundNumber((parseInt(resultjson.place_25km) / 675),2 )],
+   ['30 km', roundNumber(Math.abs((parseInt(resultjson.place_30km) / 675)  -1),2),roundNumber((parseInt(resultjson.place_30km) / 675),2 )],
+    
+    ['37.2 km', roundNumber(Math.abs((parseInt(resultjson.place_37km) / 675)  -1),2),roundNumber((parseInt(resultjson.place_37km) / 675),2 )],
+    ['42.2 km', roundNumber(Math.abs((parseInt(resultjson.final_place) / 675)  -1),2),roundNumber((parseInt(resultjson.final_place) / 675),2 )]
+
+      ]);
+
+          tabledata.addColumn('string', 'Vegalengd');
+      tabledata.addColumn('string', 'Sæti (heild)');
+      tabledata.addColumn('string', 'Sæti ('+kyn+')');
+      tabledata.addColumn('string', 'Tími');
+      tabledata.addRows([
+        ['10 km', resultjson.place_10km,resultjson.place_10km_sex,resultjson.time_10km],
+        ['20 km', resultjson.place_20km,resultjson.place_20km_sex,resultjson.time_20km],
+        ['21.1 km', resultjson.place_21km,resultjson.place_21km_sex,resultjson.time_21km],
+        ['25 km', resultjson.place_25km,resultjson.place_25km_sex,resultjson.time_25km],
+        ['30 km', resultjson.place_30km,resultjson.place_30km_sex,resultjson.time_30km],
+
+        ['37.2 km', resultjson.place_37km,resultjson.place_37km_sex,resultjson.time_37km],
+        ['42.2 km (byssutími)', resultjson.final_place,resultjson.final_place_sex,resultjson.byssutimi],
+        ['42.2 km (flögutími)', resultjson.place_chiptime,resultjson.place_chiptime_sex,resultjson.flogutimi]
+      ]);
+ 
+        var resulttext = '<h2>Reykjavíkurmaraþon 2012</h2>'
+        +'<h3>'+resultjson.name +'</h3>'
+		+ '<h4>Keppnisnúmer: '+resultjson.nr +'<br />Heimaland: ' +resultjson.country+'<br />Aldur: '+resultjson.age+'</h4>';
+        
+        if (resultjson.place_10km != "vantar"){
+        resulttext = resulttext + '<p><br />Laugardaginn 18. ágúst, 2012 hljóp ' + resultjson.name +' maraþon. Eftir 10 kílómetra var '+ fornafn +' í ' + resultjson.place_10km + '. sæti af 675 hlaupurum '
+        + '(' + resultjson.place_10km_sex +'. sæti af ' +total +' ' + sex_fornafn +') á tímanum '+resultjson.time_10km+'.<br />'
+        +'<br />Rúmum 32 kílómetrum síðar var '+fornafn+ ' í ' + resultjson.final_place+'. sæti. '
+        + '(' + resultjson.final_place_sex +'. sæti af ' +total +' ' + sex_fornafn +') á tímanum '+ resultjson.byssutimi+'. Kannski má finna myndir af ' + fornafn_case + ' <a href="http://www.marathon-photos.com/scripts/event.py?new_search=1&event=Sports%2FGKDE%2F2012%2FReykjavik%20Marathon&match=' +resultjson.nr+'" target="_blank"> hér</a>. <br />'
+        +'<br />Í millitíðinni gerðist margt. Hér má sjá þróun hlaupsins.</p>';
+     	}else if  (resultjson.place_20km != "vantar"){
+        resulttext = resulttext + '<p><br />Laugardaginn 18. ágúst, 2012 hljóp ' + resultjson.name +' maraþon. Eftir 20 kílómetra var '+ fornafn +' í ' + resultjson.place_20km + '. sæti af 675 hlaupurum '
+        + '(' + resultjson.place_20km_sex +'. sæti af ' +total +' ' + sex_fornafn +') á tímanum '+resultjson.time_20km+'.<br />'
+        +'<br />Rúmum 22 kílómetrum síðar var '+fornafn+ ' í ' + resultjson.final_place+'. sæti. '
+        + '(' + resultjson.final_place_sex +'. sæti af ' +total +' ' + sex_fornafn +') á tímanum '+ resultjson.byssutimi+'.<br />'
+        +'<br />Í millitíðinni gerðist margt. Hér má sjá þróun hlaupsins.</p>';
+     	}else if  (resultjson.place_21km != "vantar"){
+        resulttext = resulttext + '<p><br />Laugardaginn 18. ágúst, 2012 hljóp ' + resultjson.name +' maraþon. Eftir 21.1 kílómetra var '+ fornafn +' í ' + resultjson.place_21km + '. sæti af 675 hlaupurum '
+        + '(' + resultjson.place_21km_sex +'. sæti af ' +total +' ' + sex_fornafn +') á tímanum '+resultjson.time_21km+'.<br />'
+        +'<br />Rúmum 21 kílómetrum síðar var '+fornafn+ ' í ' + resultjson.final_place+'. sæti. '
+        + '(' + resultjson.final_place_sex +'. sæti af ' +total +' ' + sex_fornafn +') á tímanum '+ resultjson.byssutimi+'.<br />'
+        +'<br />Í millitíðinni gerðist margt. Hér má sjá þróun hlaupsins.</p>';
+     	}else if  (resultjson.place_25km != "vantar"){
+        resulttext = resulttext + '<p><br />Laugardaginn 18. ágúst, 2012 hljóp ' + resultjson.name +' maraþon. Eftir 25 kílómetra var '+ fornafn +' í ' + resultjson.place_25km + '. sæti af 675 hlaupurum '
+        + '(' + resultjson.place_25km_sex +'. sæti af ' +total +' ' + sex_fornafn +') á tímanum '+resultjson.time_25km+'.<br />'
+        +'<br />Rúmum 17 kílómetrum síðar var '+fornafn+ ' í ' + resultjson.final_place+'. sæti. '
+        + '(' + resultjson.final_place_sex +'. sæti af ' +total +' ' + sex_fornafn +') á tímanum '+ resultjson.byssutimi+'.<br />'
+        +'<br />Í millitíðinni gerðist margt. Hér má sjá þróun hlaupsins.</p>';
+     	}else if  (resultjson.place_30km != "vantar"){
+        resulttext = resulttext + '<p><br />Laugardaginn 18. ágúst, 2012 hljóp ' + resultjson.name +' maraþon. Eftir 30 kílómetra var '+ fornafn +' í ' + resultjson.place_30km + '. sæti af 675 hlaupurum '
+        + '(' + resultjson.place_30km_sex +'. sæti af ' +total +' ' + sex_fornafn +') á tímanum '+resultjson.time_30km+'.<br />'
+        +'<br />Rúmum 12 kílómetrum síðar var '+fornafn+ ' í ' + resultjson.final_place+'. sæti. '
+        + '(' + resultjson.final_place_sex +'. sæti af ' +total +' ' + sex_fornafn +') á tímanum '+ resultjson.byssutimi+'.<br />'
+        +'<br />Í millitíðinni gerðist margt. Hér má sjá þróun hlaupsins.</p>';
+     	}else if  (resultjson.place_37km != "vantar"){
+        resulttext = resulttext + '<p><br />Laugardaginn 18. ágúst, 2012 hljóp ' + resultjson.name +' maraþon. Eftir 37 kílómetra var '+ fornafn +' í ' + resultjson.place_37km + '. sæti af 675 hlaupurum '
+        + '(' + resultjson.place_37km_sex +'. sæti af ' +total +' ' + sex_fornafn +') á tímanum '+resultjson.time_37km+'.<br />'
+        +'<br />Rúmum 5 kílómetrum síðar var '+fornafn+ ' í ' + resultjson.final_place+'. sæti. '
+        + '(' + resultjson.final_place_sex +'. sæti af ' +total +' ' + sex_fornafn +') á tímanum '+ resultjson.byssutimi+'.<br />'
+        +'<br />Í millitíðinni gerðist margt. Hér má sjá þróun hlaupsins.</p>';
+     	}else {
+     		resulttext = resulttext +  '<p><br />Laugardaginn 18. ágúst, 2012 hljóp ' + resultjson.name +' maraþon á tímanum '+ resultjson.byssutimi+'.'
+     	}
+     	
+        $( '#result' ).html( resulttext);;
+
+new google.visualization.LineChart(document.getElementById('linechart')).
+      draw(linechartdata, {height:500,
+        vAxis: {direction:-1, title: "Sæti"}}
+        );
+        var table = new google.visualization.Table(document.getElementById('table'));
+        table.draw(tabledata, {showRowNumber: false, allowHtml: true});
+        new google.visualization.ColumnChart(document.getElementById('columnchart')).
+      draw(columnchartdata, {height:500, isStacked: true,vAxis: { title: "Hlutfall",format:'#%'}}
+        );
+
+  ;
+</script>
+</body>
+</html>
