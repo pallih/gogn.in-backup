@@ -7,7 +7,7 @@
 <!--[if (gt IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html id="blaskan" class="no-js" dir="ltr" lang="en-US"><!--<![endif]-->
 <head>
 	<meta charset="UTF-8">
-	<title>Hver er q? | Gögn</title>
+	<title>Hundar í nágrenninu | Gögn</title>
 	<link rel="alternate" type="application/rss+xml" title="Gögn &raquo; Feed" href="../../../../feed/index.html" />
 <link rel="alternate" type="application/rss+xml" title="Gögn &raquo; Comments Feed" href="../../../../comments/feed/index.html" />
 
@@ -25,7 +25,7 @@
 				s.parentNode.insertBefore(ga, s);
 			})();
 			//]]></script>
-			<link rel="alternate" type="application/rss+xml" title="Gögn &raquo; Hver er q? Comments Feed" href="feed/index.html" />
+			<link rel="alternate" type="application/rss+xml" title="Gögn &raquo; Hundar í nágrenninu Comments Feed" href="feed/index.html" />
 <link rel='stylesheet' id='smg_flexslidercss-css'  href='../../../../wp-content/plugins/style-my-gallery/FlexSlider-1.8/flexslider.css?ver=3.4.2' type='text/css' media='all' />
 <link rel='stylesheet' id='blaskan-framework-css'  href='../../../../wp-content/themes/blaskan/framework.css?ver=3.4.2' type='text/css' media='screen' />
 <link rel='stylesheet' id='blaskan-style-css'  href='../../../../wp-content/themes/gogn-in-blaskan-child/style.css?ver=3.4.2' type='text/css' media='screen' />
@@ -42,17 +42,18 @@ var objectL10n = {"blaskan_navigation_title":"- Navigation -"};
 <script type='text/javascript' src='../../../../wp-content/themes/blaskan/js/script.js?ver=3.4.2'></script>
 <script type='text/javascript' src='../../../../wp-content/plugins/fd-footnotes/fdfootnotes.js?ver=1.3'></script>
 <script type='text/javascript' src='https://platform.twitter.com/widgets.js?ver=3.4.2'></script>
-<link rel='prev' title='Dead Negro Hollow' href='../../28/dead-negro-hollow/index.html' />
-<link rel='next' title='Hundar í nágrenninu' href='../../../06/13/hundar-i-nagrenninu/index.html' />
+<link rel='prev' title='Hver er q?' href='../../../05/29/hver-er-q/index.html' />
+<link rel='next' title='Dómnefndir og símakosning í júróvisjón' href='../../18/domnefndir-og-simakosning-i-jurovisjon/index.html' />
 <link rel='canonical' href='index.html' />
-<link rel='shortlink' href='http://go.gogn.in/JrLjLt' />
+<link rel='shortlink' href='http://go.gogn.in/MJu5Om' />
+<meta name='robots' content='noindex,nofollow' />
 <meta property="fb:admins" content="100000497540266" />
 <meta property="fb:page_id" content="222408197873245" />
 <meta property="og:site_name" content="Gögn" />
 <meta property="og:type" content="website" />
-<meta property="og:image" content="http://gogn.in/wp-content/uploads/2012/05/535078_222454814535250_222408197873245_387812_831895396_n.jpg" />
-<meta property="og:title" content="Hver er q?" />
-<meta property="og:url" content="http://gogn.in/2012/05/29/hver-er-q/" />
+<meta property="og:image" content="http://gogn.in/wp-content/uploads/2012/06/Screen-shot-2012-06-12-at-23.42.27-e1339581556496.png" />
+<meta property="og:title" content="Hundar í nágrenninu" />
+<meta property="og:url" content="http://gogn.in/2012/06/13/hundar-i-nagrenninu/" />
 <script> (function(d, t) { var g = d.createElement(t), s = d.getElementsByTagName(t)[0]; g.async = true; g.src = 'https://apis.google.com/js/plusone.js'; s.parentNode.insertBefore(g, s); })(document, 'script'); </script><meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"><meta name="viewport" content="width=device-width"><link rel="pingback" href="../../../../xmlrpc.php"><style type="text/css" media="all">
 /* <![CDATA[ */
 @import url("../../../../wp-content/plugins/wp-table-reloaded/css/plugin.css?ver=1.9.3");
@@ -63,13 +64,13 @@ var objectL10n = {"blaskan_navigation_title":"- Navigation -"};
 body.custom-background { background-color: #030203; }
 </style>
 	</head>
-<body class="single single-post postid-256 single-format-standard custom-background background-image simple-menu content-wide sidebar content-wide-sidebar sans-serif">
+<body class="single single-post postid-261 single-format-standard custom-background background-image simple-menu content-wide sidebar content-wide-sidebar sans-serif">
 <div id="site">
 	<div id="wrapper">
 		<header id="header" role="banner">
 		  <div id="site-name"><a href="../../../../index.html" title="Gögn" rel="home">Gögn</a></div><div id="header-message">Við vinnum með gögn</div><nav id="nav" role="navigation"><div class="menu"><ul id="menu-top-1" ><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a href="../../../../um.9" >Um þennan vef</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a href="../../../../twitter-thjarkar/index.html" >Twitter þjarkar</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-265"><a title="Hundarnir í Reykjavík" href="../../../06/13/hundar-i-nagrenninu/index.html" >Hundarnir í Reykjavík</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-265"><a title="Hundarnir í Reykjavík" href="index.html" >Hundarnir í Reykjavík</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-368"><a href="../../../../marathon.7" >Maraþon 2012</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-270"><a href="../../../../hafdu-samband/index.html" >Hafðu samband</a></li>
 </ul></div></nav>		</header>
@@ -80,35 +81,86 @@ body.custom-background { background-color: #030203; }
 
 	
 			
-		<article id="post-256" class="post-256 post type-post status-publish format-standard hentry category-gogn">
+		<article id="post-261" class="post-261 post type-post status-publish format-standard hentry category-gogn">
 			<header>
+								  <figure class="post-thumbnail">
+						<img width="753" height="173" src="../../../../wp-content/uploads/2012/06/Screen-shot-2012-06-12-at-23.42.27-e1339581556496.png" class="attachment-post-thumbnail wp-post-image" alt="Hundar í Reykjavík" title="Hundar í Reykjavík" />					</figure>
 								
-			  				  <time datetime="2012-05-29T15:40:22+00:00" pubdate>29/05/2012</time>
+			  				  <time datetime="2012-06-13T00:05:01+00:00" pubdate>13/06/2012</time>
 								
-									<h1>Hver er q?</h1>
+									<h1>Hundar í nágrenninu</h1>
 							</header>
 		
 			<div class="content">
-				<p><a href="../../../../wp-content/uploads/2012/05/we_are_anonymous_by_flashfrenzy.jpg" ><img class="size-medium wp-image-257 alignleft" title="we_are_anonymous" src="../../../../wp-content/uploads/2012/05/we_are_anonymous_by_flashfrenzy-300x225.jpg" alt="" width="300" height="225" /></a>Í næsta mánuði kemur út bókin &#8216;<a href="http://www.amazon.com/We-Are-Anonymous-LulzSec-Insurgency/dp/0316213543/ref=sr_1_1?ie=UTF8&amp;qid=1338301221&amp;sr=8-1" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.amazon.com/We-Are-Anonymous-LulzSec-Insurgency/dp/0316213543/ref=sr_1_1?ie=UTF8&amp;qid=1338301221&amp;sr=8-1']);" target="_blank">We Are Anonymous: Inside the Hacker World of LulzSec, Anonymous, and the Global Cyber Insurgency</a>.&#8217; Þar rekur <a href="http://blogs.forbes.com/parmyolson/" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://blogs.forbes.com/parmyolson/']);" target="_blank">Parmy Olson</a>, yfirmaður London skrifstofu Forbes, sögu Anonymous hreyfingarinnar. Bókin byggir á viðtölum við ýmsa meðlimi Anonymous sem lýsa tilurð hópsins og þeim aðgerðum sem hann hefur gripið til <sup class='footnote'><a href="index.html#fn-256-1"  id='fnref-256-1' onclick='return fdfootnote_show(256)'>1</a></sup>.</p>
-<p>Fyrir nokkrum dögum birtust á vefnum <a href="http://cryptome.org" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://cryptome.org']);">cryptome.org</a> nokkur pdf-skjöl með hluta úr bókinni. Í <a href="http://cryptome.org/2012/05/sabu-anon-lulzsec-assange.pdf" onclick="javascript:_gaq.push(['_trackEvent','download','http://cryptome.org/2012/05/sabu-anon-lulzsec-assange.pdf']);">einu þeirra</a> er sögð sagan af því hvernig Julian Assange hjá Wikileaks hafði, ásamt íslenskum samstarfsmanni sínum sem nefndur er q, samband við Anonymous hópinn í júní 2011. Assange hafði fylgst af ánægju með því þegar LulsZec, hluti Anonymous, réðst á vefsíðu CIA. Í bókinni segir:</p>
-<blockquote><p>Then q went on to explain why he and Assange had contacted LulzSec: they wanted help infiltrating several Icelandic corporotion and government sites. They had many reasons for wanting retribution. A young WikiLeaks member had recently gone to Iceland and been arrested. WikiLeaks had also been bidding for access to a data center in an underground bunker but had lost out to another corporate bidder after the government denied them the space.</p>
-<p>Another journalist who supported WikiLeaks was being held by authorities. Assange and q appeared to want LulsZec to try to grab the e-mail service of government sites, then look for evidence of corruption or at least evidence that the government was unfairly targeting Wikileaks. The picture they were trying to paint was of the Icelandic government trying to suppress WikiLeaks’s freedom to spread information. If they could leak such evidence, they explained, it could help instigate an uprising of sorts in Iceland and beyond.</p></blockquote>
-<p>Í aftanmálsgrein er svo greint frá því að þessar upplýsingar séu fengnar úr myndbandsupptöku af samtali Sabu, eins af leiðtogum Anonymous (ef leiðtoga skyldi kalla), og q<sup class='footnote'><a href="index.html#fn-256-2"  id='fnref-256-2' onclick='return fdfootnote_show(256)'>2</a></sup>. Þar segir að heimildamenn nátengdir Wikileaks staðfesti að q sé frá Íslandi.</p>
-<p>Er eitthvað að marka þetta? Og ef svo er, hver er q?</p>
+				<p>Hvað ætli séu margir hundar í Reykjavík?</p>
+<p>16. maí síðastliðinn tók gildi <a title="Samþykkt um hundahald í Reykjavík" href="http://stjornartidindi.is/Advert.aspx?ID=77f66992-3362-44f2-86dd-91e5a6c368aa" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://stjornartidindi.is/Advert.aspx?ID=77f66992-3362-44f2-86dd-91e5a6c368aa']);">ný samþykkt um hundahald</a> í borginni. Þar er kveðið á um að skrá yfir veitt leyfi til hundahalds skuli birt á heimasíðu umhverfis- og samgöngusviðs Reykjavíkurborgar. Og nú er listinn kominn á netið <a title="Skrá yfir veitt hundaleyfi" href="http://www.reykjavik.is/desktopdefault.aspx/tabid-4772" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.reykjavik.is/desktopdefault.aspx/tabid-4772']);">hér</a>.</p>
+<p>Þarna má leita eftir heimilisföngum. Það er svosem ágætt. En væri ekki gaman að sjá þetta á korti? Jú, það væri það einmitt.</p>
+<p>Þessvegna tók ég gögnin saman og útbjó kort sem er hér: <a href="../../../../hundar.9" >gogn.in/hundar</a>. Þar má sjá hversu mörg hundaleyfi eru í næsta nágrenni við hvaða punkt sem er í borgarlandinu.</p>
+<p><span id="more-261"></span>Smá tölfræði:</p>
+
+<table id="wp-table-reloaded-id-1-no-1" class="wp-table-reloaded wp-table-reloaded-id-1">
+<thead>
+	<tr class="row-1 odd">
+		<th class="column-1">Póstnúmer</th><th class="column-2">Mannfjöldi</th><th class="column-3">Hundaleyfi</th><th class="column-4">Fjöldi manna á hvert hundaleyfi</th>
+	</tr>
+</thead>
+<tbody>
+	<tr class="row-2 even">
+		<td class="column-1">101</td><td class="column-2">15733</td><td class="column-3">248</td><td class="column-4">63</td>
+	</tr>
+	<tr class="row-3 odd">
+		<td class="column-1">103</td><td class="column-2">2024</td><td class="column-3">13</td><td class="column-4">156</td>
+	</tr>
+	<tr class="row-4 even">
+		<td class="column-1">104</td><td class="column-2">9043</td><td class="column-3">168</td><td class="column-4">54</td>
+	</tr>
+	<tr class="row-5 odd">
+		<td class="column-1">105</td><td class="column-2">15938</td><td class="column-3">209</td><td class="column-4">76</td>
+	</tr>
+	<tr class="row-6 even">
+		<td class="column-1">107</td><td class="column-2">8434</td><td class="column-3">130</td><td class="column-4">65</td>
+	</tr>
+	<tr class="row-7 odd">
+		<td class="column-1">108</td><td class="column-2">12256</td><td class="column-3">240</td><td class="column-4">51</td>
+	</tr>
+	<tr class="row-8 even">
+		<td class="column-1">109</td><td class="column-2">11925</td><td class="column-3">233</td><td class="column-4">51</td>
+	</tr>
+	<tr class="row-9 odd">
+		<td class="column-1">110</td><td class="column-2">11120</td><td class="column-3">257</td><td class="column-4">43</td>
+	</tr>
+	<tr class="row-10 even">
+		<td class="column-1">111</td><td class="column-2">8577</td><td class="column-3">114</td><td class="column-4">75</td>
+	</tr>
+	<tr class="row-11 odd">
+		<td class="column-1">112</td><td class="column-2">17096</td><td class="column-3">560</td><td class="column-4">31</td>
+	</tr>
+	<tr class="row-12 even">
+		<td class="column-1">113</td><td class="column-2">5756</td><td class="column-3">59</td><td class="column-4">98</td>
+	</tr>
+	<tr class="row-13 odd">
+		<td class="column-1">116</td><td class="column-2">799</td><td class="column-3">46</td><td class="column-4">17</td>
+	</tr>
+</tbody>
+</table>
+
 <p>&nbsp;</p>
-<p>&nbsp;</p>
-<div class='footnotes' id='footnotes-256'>
-<div class='footnotedivider'></div>
-<ol>
-<li id='fn-256-1'>Í kynningartexta bókarinnar segir:</p>
-<p><span id="more-256"></span>A different kind of Internet history fuels “We Are Anonymous,” Parmy Olson’s reportorial, very accessible account of the global hackers whose targets included PayPal, the Church of Scientology, Sony Entertainment and the Vatican before one of them, Hector Monsegur, known as Sabu, became an F.B.I. informant and brought the hackers’ methods to light.</p>
-<p>Reported by the London bureau chief of Forbes, this book delves into the recesses of the so-called Deep Web to understand the saboteurs’ mind-set and methods. The drama in this story is akin to that in the film “The Social Network.” It links teenage rebelliousness, cyberpranks and increasingly dirty Web tricks to dangerous consequences in the flesh and blood world. <span class='footnotereverse'><a href="index.html#fnref-256-1" >&#8617;</a></span></li>
-<li id='fn-256-2'>Dialogue from the discussion between Sabu and q is taken from the same video, which also featured text from the IRC channel they were both in at the time. Sources close to WikiLeaks confirm that q had organized meetings in the past between Assange and other third parties via IRC, and that q is from Iceland <span class='footnotereverse'><a href="index.html#fnref-256-2" >&#8617;</a></span></li>
-</ol>
+<p>Götur með flesta hunda:</p>
+<blockquote><p>Fannafold: 36<br />
+Bakkastaðir: 26<br />
+Smárarimi: 26<br />
+Vættaborgir: 24<br />
+Esjugrund: 23</p></blockquote>
+<p>Hér fyrir neðan geturðu leikið þér með kortið eða smellt <a href="../../../../hundar.9"  target="_blank">hér</a> til að opna það í öðrum glugga:</p>
+<div class="pageview">
+	
+  <iframe src="../../../../hundar.9" frameborder="0" style="" scrolling="auto" height="1000px" width="100%">Get a better browser!</iframe>
 </div>
-<div id="fb_share_1" style="float: left; margin-left: 10px;;width: 55px;" name="fb_share"><div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=125029517579627&amp;xfbml=1"></script><fb:like href="http://gogn.in/2012/05/29/hver-er-q/" send="false" layout="button_count" width="55" show_faces="false" font="arial"></fb:like></div><div name="googleone_share_1" style="position:relative;z-index:5;float: left;margin-left: 62px;"><g:plusone size="medium" count="1" href="http://gogn.in/2012/05/29/hver-er-q/"></g:plusone></div>
+
+<p>&nbsp;</p>
+<div id="fb_share_1" style="float: left; margin-left: 10px;;width: 55px;" name="fb_share"><div id="fb-root"></div><script src="http://connect.facebook.net/en_US/all.js#appId=125029517579627&amp;xfbml=1"></script><fb:like href="http://gogn.in/2012/06/13/hundar-i-nagrenninu/" send="false" layout="button_count" width="55" show_faces="false" font="arial"></fb:like></div><div name="googleone_share_1" style="position:relative;z-index:5;float: left;margin-left: 62px;"><g:plusone size="medium" count="1" href="http://gogn.in/2012/06/13/hundar-i-nagrenninu/"></g:plusone></div>
 <!-- This is the start of the WP Twitter Button code -->
-<div id="rk_wp_twitter_button" style="margin: 0px 0px 0px 0px; float: left"><a href="http://twitter.com/share" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://twitter.com/share']);" class="twitter-share-button" data-url="http://gogn.in/2012/05/29/hver-er-q/" data-count="horizontal">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div>
+<div id="rk_wp_twitter_button" style="margin: 0px 0px 0px 0px; float: left"><a href="http://twitter.com/share" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://twitter.com/share']);" class="twitter-share-button" data-url="http://gogn.in/2012/06/13/hundar-i-nagrenninu/" data-count="horizontal">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script></div>
 <!-- This is the end of the WP Twitter Button code -->
 
 					
@@ -123,44 +175,61 @@ body.custom-background { background-color: #030203; }
 												
 							</footer>
 		</article>
-		<!-- / #post-256 -->
+		<!-- / #post-261 -->
 
 		
 <section id="comments">
 	
-			<h1 id="comments-title">One comment</h1>
+			<h1 id="comments-title">2 comments</h1>
 
 		
-		<ol id="comment-list">	<li class="comment even thread-even depth-1" id="comment-16">
+		<ol id="comment-list">	<li class="comment even thread-even depth-1" id="comment-95">
 		<article>
 			<header class="comment-header">
-			  <figure><img alt='' src='http://0.gravatar.com/avatar/4df54cd9e9097722423890f9a7be1616?s=40&amp;d=http%3A%2F%2F0.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' /></figure>  			<time><a href="index.html#comment-16">13/06/2012 - 12:57</a></time>
+			  <figure><img alt='' src='http://1.gravatar.com/avatar/bdbac10debbc649d507687145ff885e3?s=40&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' /></figure>  			<time><a href="index.html#comment-95">07/01/2013 - 09:26</a></time>
 
-  			  			  <cite><a href="http://www.gzur.org" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://www.gzur.org']);"  rel='external nofollow' class='url'>gzur</a></cite>  			  		</header>
+  			  			  <cite>Stefán Hrafn</cite>  			  		</header>
 
   		
-  		<p><a href="http://cryptome.org/2012/06/sigurdur-thordarson.htm" onclick="javascript:_gaq.push(['_trackEvent','outbound-comment','http://cryptome.org/2012/06/sigurdur-thordarson.htm']);" rel="nofollow">http://cryptome.org/2012/06/sigurdur-thordarson.htm</a></p>
+  		<p>Eru gögnin á bakvið þetta orðin vel við aldur?</p>
 
   		<div class="reply">
-  			<a class='comment-reply-link' href='index.html?replytocom=16#respond' onclick='return addComment.moveForm("comment-16", "16", "respond", "256")'>Reply</a>
+  			<a class='comment-reply-link' href='index.html?replytocom=95#respond' onclick='return addComment.moveForm("comment-95", "95", "respond", "261")'>Reply</a>
+  			  		</div><!-- .reply -->
+		  </article>
+	<ul class='children'>
+	<li class="comment byuser comment-author-pallih bypostauthor odd alt depth-2" id="comment-96">
+		<article>
+			<header class="comment-header">
+			  <figure><img alt='' src='http://1.gravatar.com/avatar/388fcf9669bc288a54d9d0afa2e96584?s=40&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' /></figure>  			<time><a href="index.html#comment-96">07/01/2013 - 09:41</a></time>
+
+  			  			  <cite><a href="http://pallih.wpengine.com" onclick="javascript:_gaq.push(['_trackEvent','outbound-commentauthor','http://pallih.wpengine.com']);"  rel='external nofollow' class='url'>pallih</a></cite>  			  		</header>
+
+  		
+  		<p>Já&#8230; Þau hafa ekki verið uppfærð síðan þetta fór fyrst á netið &#8211; ég er ekki alveg viss um að Reykjavíkurborg haldi skrániningunni á netinu vel við, en ég skal taka það aftur út þaðan fljótlega.</p>
+
+  		<div class="reply">
+  			<a class='comment-reply-link' href='index.html?replytocom=96#respond' onclick='return addComment.moveForm("comment-96", "96", "respond", "261")'>Reply</a>
   			  		</div><!-- .reply -->
 		  </article>
 	</li>
+</ul>
+</li>
 </ol>
 
 			
 									<div id="respond">
-				<h3 id="reply-title">Post a comment <small><a rel="nofollow" id="cancel-comment-reply-link" href="index.html#respond" style="display:none;">Cancel reply</a></small></h3>
+				<h3 id="reply-title">Leave a Reply to <a href="index.html?replytocom=96#comment-96">pallih</a> <small><a rel="nofollow" id="cancel-comment-reply-link" href="index.html#respond">Cancel reply</a></small></h3>
 									<form action="http://gogn.in/wp-comments-post.php" method="post" id="commentform">
 																										<label for="comment-author">Name <span class="required">(required)</span></label> <input id="comment-author" name="author" type="text" value="" size="30" aria-required="true">
 <label for="comment-email">Email <span class="required">(required - will be kept a secret)</span></label> <input id="comment-email" name="email" type="text" value="" size="30" aria-required="true">
 <label for="comment-url">Website</label><input id="comment-url" name="url" type="text" value="" size="30">
 												<label for="comment">Comment</label><textarea id="comment" name="comment" cols="45" rows="8" aria-required="true"></textarea>						<dl class="form-allowed-tags"><dt>You may use the following <abbr title="HyperText Markup Language">HTML</abbr>:</dt> <dd><code>&lt;a href=&quot;&quot; title=&quot;&quot;&gt; &lt;abbr title=&quot;&quot;&gt; &lt;acronym title=&quot;&quot;&gt; &lt;b&gt; &lt;blockquote cite=&quot;&quot;&gt; &lt;cite&gt; &lt;code&gt; &lt;del datetime=&quot;&quot;&gt; &lt;em&gt; &lt;i&gt; &lt;q cite=&quot;&quot;&gt; &lt;strike&gt; &lt;strong&gt; </code></dd></dl>						<p class="form-submit">
 							<input name="submit" type="submit" id="submit" value="Post comment" />
-							<input type='hidden' name='comment_post_ID' value='256' id='comment_post_ID' />
-<input type='hidden' name='comment_parent' id='comment_parent' value='0' />
+							<input type='hidden' name='comment_post_ID' value='261' id='comment_post_ID' />
+<input type='hidden' name='comment_parent' id='comment_parent' value='96' />
 						</p>
-						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="c7d597925d" /></p>					</form>
+						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="d0cda5c685" /></p>					</form>
 							</div><!-- #respond -->
 				<script type="text/javascript">
 		jQuery(document).ready(function () {
@@ -177,8 +246,8 @@ body.custom-background { background-color: #030203; }
 <!-- / #comments -->
 		
 				  <nav class="post-nav" role="navigation">
-				<div class="nav-previous"><a href="../../28/dead-negro-hollow/index.html" rel="prev"><span class="meta-nav"></span> Dead Negro Hollow</a></div>
-				<div class="nav-next"><a href="../../../06/13/hundar-i-nagrenninu/index.html" rel="next">Hundar í nágrenninu <span class="meta-nav"></span></a></div>
+				<div class="nav-previous"><a href="../../../05/29/hver-er-q/index.html" rel="prev"><span class="meta-nav"></span> Hver er q?</a></div>
+				<div class="nav-next"><a href="../../18/domnefndir-og-simakosning-i-jurovisjon/index.html" rel="next">Dómnefndir og símakosning í júróvisjón <span class="meta-nav"></span></a></div>
 			</nav>
 			<!-- / .post-nav -->
 				
@@ -195,10 +264,15 @@ body.custom-background { background-color: #030203; }
             	data-show-faces="false" 
             	data-stream="false" 
             	data-header="false"></div>
-		</section><section id="custom-field-3" class="widget widget_custom_field">
+		</section><section id="custom-field-2" class="widget widget_custom_field">
+<h3 class="title"> Samantekt </h3>
+<div class='customvalue'>
+Flestir hundaleyfi í borginni eru í 112. Það eru tæplega 2300 leyfi í borginni allri.
+</div>
+</section><section id="custom-field-3" class="widget widget_custom_field">
 <h3 class="title"> Hér finnurðu gögnin sem minnst er á </h3>
 <div class='customvalue'>
-PDF skjöl með köflum úr bókinni má finna hjá cryptome.org <a href="http://cryptome.org/">hér</a>.
+Uppflettiforrit Reykjavíkurborgar er <a title="Skrá yfir veitt hundaleyfi" href="http://www.reykjavik.is/desktopdefault.aspx/tabid-4772">hér</a>. Gagnvirkt kort er <a href="../../../../hundar.9">hér</a>.
 </div>
 </section>		<section id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="title">Nýlegt</h3>		<ul>
 				<li><a href="../../../11/16/utankjorfundaratkvaedi-i-reykjavik-2003-2012/index.html" title="Utankjörfundaratkvæði í Reykjavík 2003-2012">Utankjörfundaratkvæði í Reykjavík 2003-2012</a></li>
@@ -212,8 +286,8 @@ PDF skjöl með köflum úr bókinni má finna hjá cryptome.org <a href="http:/
 	<li><a href='../../../09/index.html' title='September 2012'>September 2012</a></li>
 	<li><a href='../../../08/index.html' title='August 2012'>August 2012</a></li>
 	<li><a href='../../../07/index.html' title='July 2012'>July 2012</a></li>
-	<li><a href='../../../06/index.html' title='June 2012'>June 2012</a></li>
-	<li><a href='../../index.html' title='May 2012'>May 2012</a></li>
+	<li><a href='../../index.html' title='June 2012'>June 2012</a></li>
+	<li><a href='../../../05/index.html' title='May 2012'>May 2012</a></li>
 	<li><a href='../../../04/index.html' title='April 2012'>April 2012</a></li>
 		</ul>
 </section>		</aside>
@@ -284,7 +358,23 @@ if(typeof _gaq != 'undefined' && typeof twtter !='undefined'){
 	MBP.scaleFix();
 	MBP.hideUrlBar();
 	</script>
-	<!--[if (lt IE 9) & (!IEMobile)]><script type="text/javascript" src="http://gogn.in/wp-content/themes/blaskan/js/libs/selectivizr.1.0.3b.js"></script><script type="text/javascript" src="http://gogn.in/wp-content/themes/blaskan/js/libs/respond.min.js"></script><![endif]--><div id="fb-root"></div>
+	<!--[if (lt IE 9) & (!IEMobile)]><script type="text/javascript" src="http://gogn.in/wp-content/themes/blaskan/js/libs/selectivizr.1.0.3b.js"></script><script type="text/javascript" src="http://gogn.in/wp-content/themes/blaskan/js/libs/respond.min.js"></script><![endif]--><script type='text/javascript' src='../../../../wp-content/plugins/wp-table-reloaded/js/jquery.datatables.min.js?ver=1.9.3'></script>
+<script type='text/javascript' src='../../../../wp-content/plugins/wp-table-reloaded/js/tabletools/zeroclipboard.js?ver=1.9.3'></script>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var WP_Table_Reloaded_TableTools = {"swf_path":"http:\/\/gogn.in\/wp-content\/plugins\/wp-table-reloaded\/js\/tabletools\/zeroclipboard.swf"};
+try{convertEntities(WP_Table_Reloaded_TableTools);}catch(e){};;
+/* ]]> */
+</script>
+<script type='text/javascript' src='../../../../wp-content/plugins/wp-table-reloaded/js/tabletools/tabletools.min.js?ver=1.9.3'></script>
+<script type='text/javascript' src='../../../../wp-content/plugins/wp-table-reloaded-extensions/formatted-numbers.js?ver=1.0'></script>
+<script type="text/javascript">
+/* <![CDATA[ */
+jQuery(document).ready(function($){
+	$("#wp-table-reloaded-id-1-no-1").dataTable({"oLanguage":{"sUrl": "http://gogn.in/wp-content/plugins/wp-table-reloaded/languages/datatables/lang-en_US.txt"}, "aaSorting": [], "bSortClasses": false, "asStripClasses":['even','odd'], "bPaginate": false, "bFilter": false, "bInfo": false});
+});
+/* ]]> */
+</script><div id="fb-root"></div>
 				<script>(function(d, s, id) {
 				  var js, fjs = d.getElementsByTagName(s)[0];
 				  if (d.getElementById(id)) return;
