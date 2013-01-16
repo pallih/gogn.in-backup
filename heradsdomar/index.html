@@ -1,0 +1,424 @@
+
+<!DOCTYPE html>
+<meta charset="utf-8">
+<meta property="og:title" content="S&#xfd;kna&#xf0; e&#xf0;a sakfellt?" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://gogn.in/heradsdomar" />
+<meta property="og:image" content="http://img577.imageshack.us/img577/9735/domstolaradlogo15566718.gif" />
+<meta property="og:site_name" content="H&#xe9;ra&#xf0;dsd&#xf3;mar 2006-2012" />
+<meta property="fb:app_id" content="100003907991709" />
+<style>
+
+@import url(stack.css);
+
+.big {
+  font-size: 128px;
+}
+
+.small {
+  font-size: 16px;
+}
+.caption {
+  font-size: 96px;
+  text-align: center;
+  /*text-shadow: 0px 2px 6px rgba(0,0,0,.5);*/
+}
+
+#allt_landid {float:left;}
+#austurland {float:left;font-size:18px;text-align:center;margin-right:40px;}
+#nordurland_eystra {float:left;font-size:18px;text-align:center;margin-right:40px;}
+#nordurland_vestra {float:left;font-size:18px;text-align:center;margin-right:40px;}
+#vestfirdir {float:left;font-size:18px;text-align:center;margin-right:40px;}
+#vesturland {float:left;font-size:18px;text-align:center;margin-right:40px;}
+#reykjanes {float:left;font-size:18px;text-align:center;margin-right:40px;}
+#reykjavik {float:left;font-size:18px;text-align:center;margin-right:40px;}
+#sudurland {float:left;font-size:18px;text-align:center;margin-right:40px;}
+#rod{float:left;}
+
+</style>
+
+
+</style>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31101018-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    <script type="text/javascript" src="http://mbostock.github.com/d3/d3.js?2.4.5"></script>
+    <link href="nv.d3.css" rel="stylesheet">
+   <script src="nv.d3.js"></script>
+   <script>
+   function allt_landid() {
+  return [{
+    key: "Cumulative Return",
+    values: [
+      {
+        "label": "Sýknað",
+        "value" : 282
+      } ,
+      {
+        "label": "Sakfellt",
+        "value" : 4407
+      } ] } ]; }
+
+function austurland() {
+  return [{
+    key: "Cumulative Return",
+    values: [
+      {
+        "label": "Sýknað",
+        "value" : 20
+      } ,
+      {
+        "label": "Sakfellt",
+        "value" : 179
+      } ] } ]; }
+
+      function nordurland_eystra() {
+  return [{
+    key: "Cumulative Return",
+    values: [
+      {
+        "label": "Sýknað",
+        "value" : 22
+      } ,
+      {
+        "label": "Sakfellt",
+        "value" : 593
+      } ] } ]; }
+
+      function nordurland_vestra() {
+  return [{
+    key: "Cumulative Return",
+    values: [
+      {
+        "label": "Sýknað",
+        "value" : 13
+      } ,
+      {
+        "label": "Sakfellt",
+        "value" : 116
+      } ] } ]; }
+
+function reykjanes() {
+  return [{
+    key: "Cumulative Return",
+    values: [
+      {
+        "label": "Sýknað",
+        "value" : 35
+      } ,
+      {
+        "label": "Sakfellt",
+        "value" : 901
+      } ] } ]; }
+
+      function reykjavik() {
+  return [{
+    key: "Cumulative Return",
+    values: [
+      {
+        "label": "Sýknað",
+        "value" : 72
+      } ,
+      {
+        "label": "Sakfellt",
+        "value" : 1519
+      } ] } ]; }
+
+function sudurland() {
+  return [{
+    key: "Cumulative Return",
+    values: [
+      {
+        "label": "Sýknað",
+        "value" : 80
+      } ,
+      {
+        "label": "Sakfellt",
+        "value" : 611
+      } ] } ]; }
+
+function vestfirdir() {
+  return [{
+    key: "Cumulative Return",
+    values: [
+      {
+        "label": "Sýknað",
+        "value" : 15
+      } ,
+      {
+        "label": "Sakfellt",
+        "value" : 134
+      } ] } ]; }
+
+function vesturland() {
+  return [{
+    key: "Cumulative Return",
+    values: [
+      {
+        "label": "Sýknað",
+        "value" : 25
+      } ,
+      {
+        "label": "Sakfellt",
+        "value" : 354
+      } ] } ]; }
+
+      </script>
+
+<body class="overview">
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<section>
+  <p><h1>Héraðsdómar</h1> <br> <h1>Sýknað eða sakfellt</h1>
+  <p class="pink">Framleitt af <a href="mailto:pallih@gogn.in">Páli Hilmarssyni</a> fyrir <a href="../index.html" target="_blank">gogn.in</a></p>
+  <p>Um tilurð verkefnisins má fræðast <a href="../2013/01/15/heradsdomar.1">hér</a>.</p>
+  <p class="small">Notaðu örvatakka, bilslá eða mús til að fletta yfir á næstu slæðu.</p>
+</section>
+
+<section>
+  <p>Til grundvallar rannsókninni lágu 4736 dómar í opinberum málum sem birtir eru á <a href="http://domstolar.is" target="_blank">domstolar.is</a>.<br><br>Einn reyndist vera <a href="http://domstolar.is/domaleit/nanar/?ID=S200600770&Domur=2&type=1&Serial=1" target="_blank">prufufærsla</a>. Þegar dómar höfðu verið flokkaðir voru 46 í flokknum „Óljóst“. Í langflestum tilfellum var um að ræða frávísanir og því eru þeir dómar ekki með í eftirfarandi tölfræði.<br><br>Hér er því byggt á upplýsingum um 4689 dóma.</p>
+</section>
+<section>
+  <p>Upplýsingum um dóma var safnað af vef dómstólanna með Python skriftu sem má finna <a href="https://scraperwiki.com/scrapers/heradsdomarar/" target="_blank">hér</a>. <br><br>Þar má einnig sækja csv skrá eða SQLite3 gagnagrunn með öllum 9014 dómum sem safnað var.</p>
+<p>Einfalt hefði verið að fá fram flokkun á dómum með smávægilegri forritun, en þar sem mig hafði lengi langað að prófa að „crowdsourca“ slíka flokkun þá var sú leið valin.</p>
+</section>
+<section>
+  <p>Útbúinn var vefur til að flokka dómana. Notast var við forritasafnið <a href="http://dev.pybossa.com/" target="_blank">PyBossa</a> sem gerir slíkt afar einfalt. Vefurinn var svo settur upp á vefsvæðinu <a href="http://crowdcrafting.org" target="_blank">crowdcrafting.org</a>. <br><br>Dómar voru flokkaðir í þrjá flokka: „Sakfellt“, „Sýknað“ og „Óvíst/veit ekki“. <a href="http://crowdcrafting.org/app/heradsdomar" target="_blank">Hér</a> má sjá vefsíðuna og það viðmót sem notendur unnu í.</p><p>Ef sakfellt var fyrir hluta ákæru en sýknað vegna annars var það flokkað sem sakfelling.</a>
+</section>
+<section>
+  <p>Flokkunin stóð yfir milli 2. og 9. janúar 2013. Hver dómur fór til a.m.k. þriggja mismunandi notenda og var því um að ræða samtals 14.208 aðgerðir til að ljúka flokkuninni. <br><br>Þegar flokkun var hætt höfðu 17.144 aðgerðir verið framkvæmdar. 290 notendur sem ekki skráðu sig fyrir reikningi á crowdcrafting.org tóku þátt og 35 skráðir notendur. Frekar tölfræði um flokkunina má finna <a href="crowdcrafting-stats/index.html" target="_blank">hér</a>.</p>
+  <p>344 dómar höfðu verið flokkaðir í tvo eða fleiri flokka. Farið var handvirkt yfir þá og þeir settir í réttan flokk.</p>
+</section>
+<section>
+  <div id='allt_landid'>
+  <svg style='height:405px;width:405px'> </svg>
+</div>
+  <p>Hlutfall sakfellinga á tímabilinu fyrir alla dómstóla landsins var 93,99%.<br>
+      <p class"big">4407 málum lauk með sakfellingu og 282 með sýknu.</p>
+
+
+<script>
+
+nv.addGraph(function() {
+  var chart = nv.models.pieChart()
+      .x(function(d) { return d.label })
+      .y(function(d) { return d.value })
+      .showLegend(false)
+      .showLabels(false)
+      .width(399)
+      .color(d3.scale.category20c().range());
+    d3.select("#allt_landid svg")
+        .datum(allt_landid())
+      .transition().duration(5000)
+        .call(chart);
+
+  return chart;
+});
+
+</script>
+
+</section>
+<section>
+  <p>Hlutföll einstakra dómstóla</p>
+  <div id="rod">
+  <div id='austurland'>
+  <svg style='height:200px;width:200px'> </svg>
+  Austurland <br> 89,95% sakfellingar
+</div>
+  <div id='nordurland_eystra'>
+  <svg style='height:200px;width:200px'> </svg>
+  Norðurland eystra <br> 96,42% sakfellingar
+</div>
+<div id='nordurland_vestra'>
+  <svg style='height:200px;width:200px'> </svg>
+  Norðurland vestra <br> 89,92% sakfellingar
+</div>
+<div id='vestfirdir'>
+  <svg style='height:200px;width:200px'> </svg>
+  Vestfirðir <br> 89,93% sakfellingar
+</div>
+</div>
+<div id = "rod">
+<div id='vesturland'>
+  <svg style='height:200px;width:200px'> </svg>
+  Vesturland <br> 93,40% sakfellingar
+</div>
+<div id='reykjanes'>
+  <svg style='height:200px;width:200px'> </svg>
+  Reykjanes <br> 96,26% sakfellingar
+</div>
+<div id='reykjavik'>
+  <svg style='height:200px;width:200px'> </svg>
+  Reykjavík <br> 95,47% sakfellingar
+</div>
+<div id='sudurland'>
+  <svg style='height:200px;width:200px'> </svg>
+  Suðurland <br> 88,42% sakfellingar
+</div>
+</div>
+<script>
+
+nv.addGraph(function() {
+  var chart = nv.models.pieChart()
+      .x(function(d) { return d.label })
+      .y(function(d) { return d.value })
+      .showLegend(false)
+      .showLabels(false)
+      .width(200)
+      .color(d3.scale.category20c().range());
+    d3.select("#austurland svg")
+        .datum(austurland())
+      .transition().duration(5000)
+        .call(chart);
+
+  return chart;
+});
+
+nv.addGraph(function() {
+  var chart = nv.models.pieChart()
+      .x(function(d) { return d.label })
+      .y(function(d) { return d.value })
+      .showLegend(false)
+      .showLabels(false)
+      .width(200)
+      .color(d3.scale.category20c().range());
+    d3.select("#nordurland_eystra svg")
+        .datum(nordurland_eystra())
+      .transition().duration(5000)
+        .call(chart);
+
+  return chart;
+});
+nv.addGraph(function() {
+  var chart = nv.models.pieChart()
+      .x(function(d) { return d.label })
+      .y(function(d) { return d.value })
+      .showLegend(false)
+      .showLabels(false)
+      .width(200)
+      .color(d3.scale.category20c().range());
+    d3.select("#nordurland_vestra svg")
+        .datum(nordurland_vestra())
+      .transition().duration(5000)
+        .call(chart);
+
+  return chart;
+});
+nv.addGraph(function() {
+  var chart = nv.models.pieChart()
+      .x(function(d) { return d.label })
+      .y(function(d) { return d.value })
+      .showLegend(false)
+      .showLabels(false)
+      .width(200)
+      .color(d3.scale.category20c().range());
+    d3.select("#vestfirdir svg")
+        .datum(vestfirdir())
+      .transition().duration(5000)
+        .call(chart);
+
+  return chart;
+});
+nv.addGraph(function() {
+  var chart = nv.models.pieChart()
+      .x(function(d) { return d.label })
+      .y(function(d) { return d.value })
+      .showLegend(false)
+      .showLabels(false)
+      .width(200)
+      .color(d3.scale.category20c().range());
+    d3.select("#vesturland svg")
+        .datum(vesturland())
+      .transition().duration(5000)
+        .call(chart);
+
+  return chart;
+});
+nv.addGraph(function() {
+  var chart = nv.models.pieChart()
+      .x(function(d) { return d.label })
+      .y(function(d) { return d.value })
+      .showLegend(false)
+      .showLabels(false)
+      .width(200)
+      .color(d3.scale.category20c().range());
+    d3.select("#reykjanes svg")
+        .datum(reykjanes())
+      .transition().duration(5000)
+        .call(chart);
+
+  return chart;
+});
+nv.addGraph(function() {
+  var chart = nv.models.pieChart()
+      .x(function(d) { return d.label })
+      .y(function(d) { return d.value })
+      .showLegend(false)
+      .showLabels(false)
+      .width(200)
+      .color(d3.scale.category20c().range());
+    d3.select("#reykjavik svg")
+        .datum(reykjavik())
+      .transition().duration(5000)
+        .call(chart);
+
+  return chart;
+});
+nv.addGraph(function() {
+  var chart = nv.models.pieChart()
+      .x(function(d) { return d.label })
+      .y(function(d) { return d.value })
+      .showLegend(false)
+      .showLabels(false)
+      .width(200)
+      .color(d3.scale.category20c().range());
+    d3.select("#sudurland svg")
+        .datum(sudurland())
+      .transition().duration(5000)
+        .call(chart);
+
+  return chart;
+});
+</script>
+</section>
+<section>
+  Hlutföll þeirra dómara sem hafa dæmt í 50 málum eða fleirum.<br><br>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/static/modules/gviz/1.0/chart.js"> {"dataSourceUrl":"//docs.google.com/a/kaninka.net/spreadsheet/tq?key=0AmzVQh00DGqcdDE4dEVLQ2dkUnBUb1BTTkxiVHhaYnc&transpose=0&headers=1&range=A1%3AE25&gid=4&pub=1","options":{"vAxes":[{"useFormatFromData":true,"title":null,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null},{"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null}],"titleTextStyle":{"bold":true,"color":"#000","fontSize":16},"booleanRole":"certainty","title":"Chart title","legend":"right","hAxis":{"useFormatFromData":true,"minValue":null,"viewWindow":{"min":null,"max":null},"maxValue":null},"animation":{"duration":0},"width":700},"state":{},"view":{},"chartType":"Table","chartName":"Chart 2"} </script>
+  </section>
+<section>
+  <p>Hvað veldur því að á Suðurlandi er sakfellt í 88,42% mála en 96,42% á Norðurlandi eystra? Afhverju enda 79% mála hjá Hirti O. Aðalsteinssyni með sakfellingu en 99,3% hjá Símoni Sigvaldasyni?</p>
+  <p>Væri gagnlegt að kanna afdrif mála einstakra dómara og dómstóla fyrir Hæstarétti? Er oftar sýknað eða sakfellt í ákveðnum málaflokkum? Er það eðlilegt eða óeðlilegt að ákæruvaldið nær fram sakfellingu í 93% mála?</p>
+  <p>Þessum og fleiri spurningum gætu gagnablaðamenn reynt að svara.</p>
+</section>
+<section>
+  <p>Gögn má nálgast <a href="https://www.dropbox.com/sh/7uuvd72laymx4hz/gKWvwJekVt/heradsdomar">hér.</a>
+    <p>Tól og tæki sem notast var við:<br><br>
+      Dómum var safnað með <a href="http://scraperwiki.com">Scraperwiki</a><br>
+      Gögn hreinsuð með <a href="http://openrefine.org/">Open Refine</a><br>
+      Þau flokkuð með <a href="http://dev.pybossa.com/">PyBossa</a> og <a href="http://crowdcrafting.org/">Crowdcrafting.org</a><br>
+      Þessi kynning notast við <a href="https://github.com/mbostock/stack">stacks.js</a>, <a href="https://github.com/PyBossa/pybossa-stats">pybossa-stats</a>, <a href="http://nvd3.org/">nvd3.js</a> og <a href="http://docs.google.com">Google docs</a></br></br>
+      <div class="fb-like" data-href="http://gogn.in/heradsdomar" data-send="true" data-width="450" data-show-faces="false"></div>
+      <a href="https://twitter.com/share" class="twitter-share-button" data-url="http://gogn.in/heradsdomar" data-text="Gögn: Sýknað eða sakfellt. Héraðsdómar 2006 - 2012" data-via="pallih">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+  </div>
+
+</section>
+
+<script src="stack.v0.js"></script>
