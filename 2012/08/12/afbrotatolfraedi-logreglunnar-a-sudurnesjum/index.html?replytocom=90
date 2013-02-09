@@ -68,10 +68,10 @@ body.custom-background { background-color: #030203; }
 <div id="site">
 	<div id="wrapper">
 		<header id="header" role="banner">
-		  <div id="site-name"><a href="../../../../index.html" title="Gögn" rel="home">Gögn</a></div><div id="header-message">Við vinnum með gögn</div><nav id="nav" role="navigation"><div class="menu"><ul id="menu-top-1" ><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a href="../../../../um.15" >Um þennan vef</a></li>
+		  <div id="site-name"><a href="../../../../index.html" title="Gögn" rel="home">Gögn</a></div><div id="header-message">Við vinnum með gögn</div><nav id="nav" role="navigation"><div class="menu"><ul id="menu-top-1" ><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a href="../../../../um.16" >Um þennan vef</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a href="../../../../twitter-thjarkar/index.html" >Twitter þjarkar</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-265"><a title="Hundarnir í Reykjavík" href="../../../06/13/hundar-i-nagrenninu/index.html" >Hundarnir í Reykjavík</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-368"><a href="../../../../marathon.13" >Maraþon 2012</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-368"><a href="../../../../marathon.14" >Maraþon 2012</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-270"><a href="../../../../hafdu-samband/index.html" >Hafðu samband</a></li>
 </ul></div></nav>		</header>
 		<!-- / #header -->
@@ -145,10 +145,10 @@ body.custom-background { background-color: #030203; }
 <script type="text/javascript">
 /* <![CDATA[ */
 if (!window.gcharts) window.gcharts = {};
-window.gcharts['gchart3592'] = {"type":"column","series":[{"type":"number","label":"\u00c1r"},{"type":"number","label":"Skjalaf\u00f6lsunarm\u00e1l"}],"data":[["2003","42"],["2004","28"],["2005","19"],["2006","7"],["2007","7"],["2008","30"],["2009","30"],["2010","23"],["2011","33"]],"options":{"height":"400","title":"Skjalaf\u00f6lsunarm\u00e1l hj\u00e1 l\u00f6greglunni \u00e1 Su\u00f0urnesjum","legend_position":"bottom","xaxis_title":"\u00c1r","stroke_width":"1","id":"3"},"data_ecoded":"1"};
+window.gcharts['gchart3552'] = {"type":"column","series":[{"type":"number","label":"\u00c1r"},{"type":"number","label":"Skjalaf\u00f6lsunarm\u00e1l"}],"data":[["2003","42"],["2004","28"],["2005","19"],["2006","7"],["2007","7"],["2008","30"],["2009","30"],["2010","23"],["2011","33"]],"options":{"height":"400","title":"Skjalaf\u00f6lsunarm\u00e1l hj\u00e1 l\u00f6greglunni \u00e1 Su\u00f0urnesjum","legend_position":"bottom","xaxis_title":"\u00c1r","stroke_width":"1","id":"3"},"data_ecoded":"1"};
 /* ]]&gt; */
 </script>
-<div id="gchart3592"></div>
+<div id="gchart3552"></div>
 <p>&nbsp;</p>
 <p>En hversu áræðanlegar eru svona tölur? Það segir sig sjálft að afbrotatölfræði sem kemur einungis frá lögreglu, og er ekki staðfest af óháðum aðila, verður að taka með fyrirvara <sup class='footnote'><a href="index.html#fn-344-1"  id='fnref-344-1' onclick='return fdfootnote_show(344)'>1</a></sup>. Það getur verið lögreglu í hag að ýkja, eða draga úr, tölfræði, t.d. í þeim tilgangi að tryggja sér aukið fjármagn.</p>
 <p>Í ársskýrslum lögreglunnar á Suðurnesjum er ýmislegt skrítið.</p>
@@ -169,10 +169,10 @@ window.gcharts['gchart3592'] = {"type":"column","series":[{"type":"number","labe
 <script type="text/javascript">
 /* <![CDATA[ */
 if (!window.gcharts) window.gcharts = {};
-window.gcharts['gchart17230'] = {"type":"column","series":[{"type":"string","label":"\u0000"},{"type":"number","label":"sk\u00fdrsla 2009"},{"type":"number","label":"sk\u00fdrsla 2010"},{"type":"number","label":"sk\u00fdrsla 2011"}],"data":[["Fj\u00f6ldi \u00e1k\u00e6ra 2008","545","285","377"],["\u00datsendar sektarger\u00f0ir 2008","296","216","294"]],"options":{"height":"400","title":"Fj\u00f6ldi \u00e1k\u00e6ra  og \u00fatsendra sektarger\u00f0a \u00e1ri\u00f0 2008 eftir \u00e1rssk\u00fdrslum","axis_titles_position":"in","legend_position":"bottom","series_1_visible_in_legend":"1","id":"1"},"data_ecoded":"1"};
+window.gcharts['gchart18919'] = {"type":"column","series":[{"type":"string","label":"\u0000"},{"type":"number","label":"sk\u00fdrsla 2009"},{"type":"number","label":"sk\u00fdrsla 2010"},{"type":"number","label":"sk\u00fdrsla 2011"}],"data":[["Fj\u00f6ldi \u00e1k\u00e6ra 2008","545","285","377"],["\u00datsendar sektarger\u00f0ir 2008","296","216","294"]],"options":{"height":"400","title":"Fj\u00f6ldi \u00e1k\u00e6ra  og \u00fatsendra sektarger\u00f0a \u00e1ri\u00f0 2008 eftir \u00e1rssk\u00fdrslum","axis_titles_position":"in","legend_position":"bottom","series_1_visible_in_legend":"1","id":"1"},"data_ecoded":"1"};
 /* ]]&gt; */
 </script>
-<div id="gchart17230"></div>
+<div id="gchart18919"></div>
 <p>Hvað getur útskýrt þetta misræmi? Er hægt að taka mark á tölum um starfsemi lögreglunnar á Suðurnesjum?</p>
 <div class='footnotes' id='footnotes-344'>
 <div class='footnotedivider'></div>
@@ -236,7 +236,7 @@ window.gcharts['gchart17230'] = {"type":"column","series":[{"type":"string","lab
 							<input type='hidden' name='comment_post_ID' value='344' id='comment_post_ID' />
 <input type='hidden' name='comment_parent' id='comment_parent' value='90' />
 						</p>
-						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="02308cf919" /></p>					</form>
+						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="9f56bf824c" /></p>					</form>
 							</div><!-- #respond -->
 				<script type="text/javascript">
 		jQuery(document).ready(function () {
@@ -272,7 +272,7 @@ window.gcharts['gchart17230'] = {"type":"column","series":[{"type":"string","lab
             	data-stream="false" 
             	data-header="false"></div>
 		</section>		<section id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="title">Nýlegt</h3>		<ul>
-				<li><a href="../../../../2013/01/15/heradsdomar.6" title="Héraðsdómar">Héraðsdómar</a></li>
+				<li><a href="../../../../2013/01/15/heradsdomar.7" title="Héraðsdómar">Héraðsdómar</a></li>
 				<li><a href="../../../11/16/utankjorfundaratkvaedi-i-reykjavik-2003-2012/index.html" title="Utankjörfundaratkvæði í Reykjavík 2003-2012">Utankjörfundaratkvæði í Reykjavík 2003-2012</a></li>
 				<li><a href="../../../09/25/twitter-thjarkur-med-opnum-gognum-a-skemman-is/index.html" title="Twitter þjarkur með opnum gögnum á skemman.is">Twitter þjarkur með opnum gögnum á skemman.is</a></li>
 				<li><a href="../../../09/03/urslit-i-reykjavikurmarathoni-2012/index.html" title="Úrslit í Reykjavíkurmaraþoni 2012">Úrslit í Reykjavíkurmaraþoni 2012</a></li>
