@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<!--[if IEMobile 7 ]><html id="blaskan" class="no-js iem7" dir="ltr" lang="en-US"><![endif]-->
-<!--[if lt IE 7 ]><html id="blaskan" class="no-js ie6" dir="ltr" lang="en-US"><![endif]-->
-<!--[if IE 7 ]><html id="blaskan" class="no-js ie7" dir="ltr" lang="en-US"><![endif]-->
-<!--[if IE 8 ]><html id="blaskan" class="no-js ie8" dir="ltr" lang="en-US"><![endif]-->
-<!--[if IE 9 ]><html id="blaskan" class="no-js ie9" dir="ltr" lang="en-US"><![endif]-->
-<!--[if (gt IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html id="blaskan" class="no-js" dir="ltr" lang="en-US"><!--<![endif]-->
+<!--[if IEMobile 7 ]><html id="blaskan" class="no-js iem7" lang="en-US"><![endif]-->
+<!--[if lt IE 7 ]><html id="blaskan" class="no-js ie6" lang="en-US"><![endif]-->
+<!--[if IE 7 ]><html id="blaskan" class="no-js ie7" lang="en-US"><![endif]-->
+<!--[if IE 8 ]><html id="blaskan" class="no-js ie8" lang="en-US"><![endif]-->
+<!--[if IE 9 ]><html id="blaskan" class="no-js ie9" lang="en-US"><![endif]-->
+<!--[if (gt IE 9)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html id="blaskan" class="no-js" lang="en-US"><!--<![endif]-->
 <head>
 	<meta charset="UTF-8">
 	<title>Hundar í nágrenninu | Gögn</title>
@@ -26,22 +26,22 @@
 			})();
 			//]]></script>
 			<link rel="alternate" type="application/rss+xml" title="Gögn &raquo; Hundar í nágrenninu Comments Feed" href="feed/index.html" />
-<link rel='stylesheet' id='smg_flexslidercss-css'  href='../../../../wp-content/plugins/style-my-gallery/FlexSlider-1.8/flexslider.css?ver=3.4.2' type='text/css' media='all' />
-<link rel='stylesheet' id='blaskan-framework-css'  href='../../../../wp-content/themes/blaskan/framework.css?ver=3.4.2' type='text/css' media='screen' />
-<link rel='stylesheet' id='blaskan-style-css'  href='../../../../wp-content/themes/gogn-in-blaskan-child/style.css?ver=3.4.2' type='text/css' media='screen' />
-<script type='text/javascript' src='http://gogn.in/wp-includes/js/jquery/jquery.js?ver=1.7.2'></script>
-<script type='text/javascript' src='../../../../wp-content/plugins/style-my-gallery/FlexSlider-1.8/jquery.flexslider-min.js?ver=3.4.2'></script>
-<script type='text/javascript' src='../../../../wp-content/themes/blaskan/js/libs/modernizr.min.js?ver=3.4.2'></script>
-<script type='text/javascript' src='../../../../wp-content/themes/blaskan/js/libs/jquery.fitvids.js?ver=3.4.2'></script>
-<script type='text/javascript' src='../../../../wp-content/themes/blaskan/js/mylibs/helper.js?ver=3.4.2'></script>
+<link rel='stylesheet' id='smg_flexslidercss-css'  href='../../../../wp-content/plugins/style-my-gallery/FlexSlider-1.8/flexslider.css?ver=3.5.1' type='text/css' media='all' />
+<link rel='stylesheet' id='blaskan-framework-css'  href='../../../../wp-content/themes/blaskan/framework.css?ver=3.5.1' type='text/css' media='screen' />
+<link rel='stylesheet' id='blaskan-style-css'  href='../../../../wp-content/themes/gogn-in-blaskan-child/style.css?ver=3.5.1' type='text/css' media='screen' />
+<script type='text/javascript' src='http://gogn.in/wp-includes/js/jquery/jquery.js?ver=1.8.3'></script>
+<script type='text/javascript' src='../../../../wp-content/plugins/style-my-gallery/FlexSlider-1.8/jquery.flexslider-min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='../../../../wp-content/themes/blaskan/js/libs/modernizr.min.js?ver=3.5.1'></script>
+<script type='text/javascript' src='../../../../wp-content/themes/blaskan/js/libs/jquery.fitvids.js?ver=3.5.1'></script>
+<script type='text/javascript' src='../../../../wp-content/themes/blaskan/js/mylibs/helper.js?ver=3.5.1'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var objectL10n = {"blaskan_navigation_title":"- Navigation -"};
 /* ]]> */
 </script>
-<script type='text/javascript' src='../../../../wp-content/themes/blaskan/js/script.js?ver=3.4.2'></script>
+<script type='text/javascript' src='../../../../wp-content/themes/blaskan/js/script.js?ver=3.5.1'></script>
 <script type='text/javascript' src='../../../../wp-content/plugins/fd-footnotes/fdfootnotes.js?ver=1.3'></script>
-<script type='text/javascript' src='https://platform.twitter.com/widgets.js?ver=3.4.2'></script>
+<script type='text/javascript' src='https://platform.twitter.com/widgets.js?ver=3.5.1'></script>
 <link rel='prev' title='Hver er q?' href='../../../05/29/hver-er-q/index.html' />
 <link rel='next' title='Dómnefndir og símakosning í júróvisjón' href='../../18/domnefndir-og-simakosning-i-jurovisjon/index.html' />
 <link rel='canonical' href='index.html' />
@@ -68,10 +68,10 @@ body.custom-background { background-color: #030203; }
 <div id="site">
 	<div id="wrapper">
 		<header id="header" role="banner">
-		  <div id="site-name"><a href="../../../../index.html" title="Gögn" rel="home">Gögn</a></div><div id="header-message">Við vinnum með gögn</div><nav id="nav" role="navigation"><div class="menu"><ul id="menu-top-1" ><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a href="../../../../um.17" >Um þennan vef</a></li>
+		  <div id="site-name"><a href="../../../../index.html" title="Gögn" rel="home">Gögn</a></div><div id="header-message">Við vinnum með gögn</div><nav id="nav" role="navigation"><div class="menu"><ul id="menu-top-1" ><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a href="../../../../um.18" >Um þennan vef</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a href="../../../../twitter-thjarkar/index.html" >Twitter þjarkar</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-265"><a title="Hundarnir í Reykjavík" href="index.html" >Hundarnir í Reykjavík</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-368"><a href="../../../../marathon.15" >Maraþon 2012</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-368"><a href="../../../../marathon.16" >Maraþon 2012</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-270"><a href="../../../../hafdu-samband/index.html" >Hafðu samband</a></li>
 </ul></div></nav>		</header>
 		<!-- / #header -->
@@ -84,7 +84,7 @@ body.custom-background { background-color: #030203; }
 		<article id="post-261" class="post-261 post type-post status-publish format-standard hentry category-gogn">
 			<header>
 								  <figure class="post-thumbnail">
-						<img width="753" height="173" src="../../../../wp-content/uploads/2012/06/Screen-shot-2012-06-12-at-23.42.27-e1339581556496.png" class="attachment-post-thumbnail wp-post-image" alt="Hundar í Reykjavík" title="Hundar í Reykjavík" />					</figure>
+						<img width="753" height="173" src="../../../../wp-content/uploads/2012/06/Screen-shot-2012-06-12-at-23.42.27-e1339581556496.png" class="attachment-post-thumbnail wp-post-image" alt="Hundar í Reykjavík" />					</figure>
 								
 			  				  <time datetime="2012-06-13T00:05:01+00:00" pubdate>13/06/2012</time>
 								
@@ -95,7 +95,7 @@ body.custom-background { background-color: #030203; }
 				<p>Hvað ætli séu margir hundar í Reykjavík?</p>
 <p>16. maí síðastliðinn tók gildi <a title="Samþykkt um hundahald í Reykjavík" href="http://stjornartidindi.is/Advert.aspx?ID=77f66992-3362-44f2-86dd-91e5a6c368aa" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://stjornartidindi.is/Advert.aspx?ID=77f66992-3362-44f2-86dd-91e5a6c368aa']);">ný samþykkt um hundahald</a> í borginni. Þar er kveðið á um að skrá yfir veitt leyfi til hundahalds skuli birt á heimasíðu umhverfis- og samgöngusviðs Reykjavíkurborgar. Og nú er listinn kominn á netið <a title="Skrá yfir veitt hundaleyfi" href="http://www.reykjavik.is/desktopdefault.aspx/tabid-4772" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.reykjavik.is/desktopdefault.aspx/tabid-4772']);">hér</a>.</p>
 <p>Þarna má leita eftir heimilisföngum. Það er svosem ágætt. En væri ekki gaman að sjá þetta á korti? Jú, það væri það einmitt.</p>
-<p>Þessvegna tók ég gögnin saman og útbjó kort sem er hér: <a href="../../../../hundar.17" >gogn.in/hundar</a>. Þar má sjá hversu mörg hundaleyfi eru í næsta nágrenni við hvaða punkt sem er í borgarlandinu.</p>
+<p>Þessvegna tók ég gögnin saman og útbjó kort sem er hér: <a href="../../../../hundar.18" >gogn.in/hundar</a>. Þar má sjá hversu mörg hundaleyfi eru í næsta nágrenni við hvaða punkt sem er í borgarlandinu.</p>
 <p><span id="more-261"></span>Smá tölfræði:</p>
 
 <table id="wp-table-reloaded-id-1-no-1" class="wp-table-reloaded wp-table-reloaded-id-1">
@@ -151,10 +151,10 @@ Bakkastaðir: 26<br />
 Smárarimi: 26<br />
 Vættaborgir: 24<br />
 Esjugrund: 23</p></blockquote>
-<p>Hér fyrir neðan geturðu leikið þér með kortið eða smellt <a href="../../../../hundar.17"  target="_blank">hér</a> til að opna það í öðrum glugga:</p>
+<p>Hér fyrir neðan geturðu leikið þér með kortið eða smellt <a href="../../../../hundar.18"  target="_blank">hér</a> til að opna það í öðrum glugga:</p>
 <div class="pageview">
 	
-  <iframe src="../../../../hundar.17" frameborder="0" style="" scrolling="auto" height="1000px" width="100%">Get a better browser!</iframe>
+  <iframe src="../../../../hundar.18" frameborder="0" style="" scrolling="auto" height="1000px" width="100%">Get a better browser!</iframe>
 </div>
 
 <p>&nbsp;</p>
@@ -229,7 +229,7 @@ Esjugrund: 23</p></blockquote>
 							<input type='hidden' name='comment_post_ID' value='261' id='comment_post_ID' />
 <input type='hidden' name='comment_parent' id='comment_parent' value='95' />
 						</p>
-						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="b42d3ee77e" /></p>					</form>
+						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="ca51b9d28f" /></p>					</form>
 							</div><!-- #respond -->
 				<script type="text/javascript">
 		jQuery(document).ready(function () {
@@ -265,11 +265,21 @@ Esjugrund: 23</p></blockquote>
             	data-stream="false" 
             	data-header="false"></div>
 		</section>		<section id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="title">Nýlegt</h3>		<ul>
-				<li><a href="../../../../2013/01/15/heradsdomar.8" title="Héraðsdómar">Héraðsdómar</a></li>
-				<li><a href="../../../11/16/utankjorfundaratkvaedi-i-reykjavik-2003-2012/index.html" title="Utankjörfundaratkvæði í Reykjavík 2003-2012">Utankjörfundaratkvæði í Reykjavík 2003-2012</a></li>
-				<li><a href="../../../09/25/twitter-thjarkur-med-opnum-gognum-a-skemman-is/index.html" title="Twitter þjarkur með opnum gögnum á skemman.is">Twitter þjarkur með opnum gögnum á skemman.is</a></li>
-				<li><a href="../../../09/03/urslit-i-reykjavikurmarathoni-2012/index.html" title="Úrslit í Reykjavíkurmaraþoni 2012">Úrslit í Reykjavíkurmaraþoni 2012</a></li>
-				<li><a href="../../../08/12/afbrotatolfraedi-logreglunnar-a-sudurnesjum/index.html" title="Afbrotatölfræði lögreglunnar á Suðurnesjum">Afbrotatölfræði lögreglunnar á Suðurnesjum</a></li>
+					<li>
+				<a href="../../../../2013/01/15/heradsdomar.9" title="Héraðsdómar">Héraðsdómar</a>
+						</li>
+					<li>
+				<a href="../../../11/16/utankjorfundaratkvaedi-i-reykjavik-2003-2012/index.html" title="Utankjörfundaratkvæði í Reykjavík 2003-2012">Utankjörfundaratkvæði í Reykjavík 2003-2012</a>
+						</li>
+					<li>
+				<a href="../../../09/25/twitter-thjarkur-med-opnum-gognum-a-skemman-is/index.html" title="Twitter þjarkur með opnum gögnum á skemman.is">Twitter þjarkur með opnum gögnum á skemman.is</a>
+						</li>
+					<li>
+				<a href="../../../09/03/urslit-i-reykjavikurmarathoni-2012/index.html" title="Úrslit í Reykjavíkurmaraþoni 2012">Úrslit í Reykjavíkurmaraþoni 2012</a>
+						</li>
+					<li>
+				<a href="../../../08/12/afbrotatolfraedi-logreglunnar-a-sudurnesjum/index.html" title="Afbrotatölfræði lögreglunnar á Suðurnesjum">Afbrotatölfræði lögreglunnar á Suðurnesjum</a>
+						</li>
 				</ul>
 		</section><section id="archives-2" class="widget widget_archive"><h3 class="title">Safn</h3>		<ul>
 			<li><a href='../../../../2013/01/index.html' title='January 2013'>January 2013</a></li>
@@ -372,7 +382,7 @@ jQuery(document).ready(function($){
 				  js = d.createElement(s); js.id = id;
 				  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=";
 				  fjs.parentNode.insertBefore(js, fjs);
-				}(document, 'script', 'facebook-jssdk'));</script><script type='text/javascript' src='http://gogn.in/wp-includes/js/comment-reply.js?ver=3.4.2'></script>
+				}(document, 'script', 'facebook-jssdk'));</script><script type='text/javascript' src='http://gogn.in/wp-includes/js/comment-reply.min.js?ver=3.5.1'></script>
   <script type="text/javascript">
     (function() {
       var t   = document.createElement('script');
