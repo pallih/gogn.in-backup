@@ -68,10 +68,10 @@ body.custom-background { background-color: #030203; }
 <div id="site">
 	<div id="wrapper">
 		<header id="header" role="banner">
-		  <div id="site-name"><a href="../../../../index.html" title="Gögn" rel="home">Gögn</a></div><div id="header-message">Við vinnum með gögn</div><nav id="nav" role="navigation"><div class="menu"><ul id="menu-top-1" ><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a href="../../../../um.19" >Um þennan vef</a></li>
+		  <div id="site-name"><a href="../../../../index.html" title="Gögn" rel="home">Gögn</a></div><div id="header-message">Við vinnum með gögn</div><nav id="nav" role="navigation"><div class="menu"><ul id="menu-top-1" ><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a href="../../../../um.20" >Um þennan vef</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a href="../../../../twitter-thjarkar/index.html" >Twitter þjarkar</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-265"><a title="Hundarnir í Reykjavík" href="index.html" >Hundarnir í Reykjavík</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-368"><a href="../../../../marathon.17" >Maraþon 2012</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-368"><a href="../../../../marathon.18" >Maraþon 2012</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-270"><a href="../../../../hafdu-samband/index.html" >Hafðu samband</a></li>
 </ul></div></nav>		</header>
 		<!-- / #header -->
@@ -95,7 +95,7 @@ body.custom-background { background-color: #030203; }
 				<p>Hvað ætli séu margir hundar í Reykjavík?</p>
 <p>16. maí síðastliðinn tók gildi <a title="Samþykkt um hundahald í Reykjavík" href="http://stjornartidindi.is/Advert.aspx?ID=77f66992-3362-44f2-86dd-91e5a6c368aa" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://stjornartidindi.is/Advert.aspx?ID=77f66992-3362-44f2-86dd-91e5a6c368aa']);">ný samþykkt um hundahald</a> í borginni. Þar er kveðið á um að skrá yfir veitt leyfi til hundahalds skuli birt á heimasíðu umhverfis- og samgöngusviðs Reykjavíkurborgar. Og nú er listinn kominn á netið <a title="Skrá yfir veitt hundaleyfi" href="http://www.reykjavik.is/desktopdefault.aspx/tabid-4772" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.reykjavik.is/desktopdefault.aspx/tabid-4772']);">hér</a>.</p>
 <p>Þarna má leita eftir heimilisföngum. Það er svosem ágætt. En væri ekki gaman að sjá þetta á korti? Jú, það væri það einmitt.</p>
-<p>Þessvegna tók ég gögnin saman og útbjó kort sem er hér: <a href="../../../../hundar.19" >gogn.in/hundar</a>. Þar má sjá hversu mörg hundaleyfi eru í næsta nágrenni við hvaða punkt sem er í borgarlandinu.</p>
+<p>Þessvegna tók ég gögnin saman og útbjó kort sem er hér: <a href="../../../../hundar.20" >gogn.in/hundar</a>. Þar má sjá hversu mörg hundaleyfi eru í næsta nágrenni við hvaða punkt sem er í borgarlandinu.</p>
 <p><span id="more-261"></span>Smá tölfræði:</p>
 
 <table id="wp-table-reloaded-id-1-no-1" class="wp-table-reloaded wp-table-reloaded-id-1">
@@ -151,10 +151,10 @@ Bakkastaðir: 26<br />
 Smárarimi: 26<br />
 Vættaborgir: 24<br />
 Esjugrund: 23</p></blockquote>
-<p>Hér fyrir neðan geturðu leikið þér með kortið eða smellt <a href="../../../../hundar.19"  target="_blank">hér</a> til að opna það í öðrum glugga:</p>
+<p>Hér fyrir neðan geturðu leikið þér með kortið eða smellt <a href="../../../../hundar.20"  target="_blank">hér</a> til að opna það í öðrum glugga:</p>
 <div class="pageview">
 	
-  <iframe src="../../../../hundar.19" frameborder="0" style="" scrolling="auto" height="1000px" width="100%">Get a better browser!</iframe>
+  <iframe src="../../../../hundar.20" frameborder="0" style="" scrolling="auto" height="1000px" width="100%">Get a better browser!</iframe>
 </div>
 
 <p>&nbsp;</p>
@@ -229,7 +229,7 @@ Esjugrund: 23</p></blockquote>
 							<input type='hidden' name='comment_post_ID' value='261' id='comment_post_ID' />
 <input type='hidden' name='comment_parent' id='comment_parent' value='95' />
 						</p>
-						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="e507c13858" /></p>					</form>
+						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="9b6ae7db38" /></p>					</form>
 							</div><!-- #respond -->
 				<script type="text/javascript">
 		jQuery(document).ready(function () {
@@ -266,7 +266,10 @@ Esjugrund: 23</p></blockquote>
             	data-header="false"></div>
 		</section>		<section id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="title">Nýlegt</h3>		<ul>
 					<li>
-				<a href="../../../../2013/01/15/heradsdomar.10" title="Héraðsdómar">Héraðsdómar</a>
+				<a href="../../../../2013/04/15/kosningaprof-dv/index.html" title="Kosningapróf DV">Kosningapróf DV</a>
+						</li>
+					<li>
+				<a href="../../../../2013/01/15/heradsdomar.11" title="Héraðsdómar">Héraðsdómar</a>
 						</li>
 					<li>
 				<a href="../../../11/16/utankjorfundaratkvaedi-i-reykjavik-2003-2012/index.html" title="Utankjörfundaratkvæði í Reykjavík 2003-2012">Utankjörfundaratkvæði í Reykjavík 2003-2012</a>
@@ -277,12 +280,10 @@ Esjugrund: 23</p></blockquote>
 					<li>
 				<a href="../../../09/03/urslit-i-reykjavikurmarathoni-2012/index.html" title="Úrslit í Reykjavíkurmaraþoni 2012">Úrslit í Reykjavíkurmaraþoni 2012</a>
 						</li>
-					<li>
-				<a href="../../../08/12/afbrotatolfraedi-logreglunnar-a-sudurnesjum/index.html" title="Afbrotatölfræði lögreglunnar á Suðurnesjum">Afbrotatölfræði lögreglunnar á Suðurnesjum</a>
-						</li>
 				</ul>
 		</section><section id="archives-2" class="widget widget_archive"><h3 class="title">Safn</h3>		<ul>
-			<li><a href='../../../../2013/01/index.html' title='January 2013'>January 2013</a></li>
+			<li><a href='../../../../2013/04/index.html' title='April 2013'>April 2013</a></li>
+	<li><a href='../../../../2013/01/index.html' title='January 2013'>January 2013</a></li>
 	<li><a href='../../../11/index.html' title='November 2012'>November 2012</a></li>
 	<li><a href='../../../09/index.html' title='September 2012'>September 2012</a></li>
 	<li><a href='../../../08/index.html' title='August 2012'>August 2012</a></li>
