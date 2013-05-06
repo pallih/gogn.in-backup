@@ -68,10 +68,10 @@ body.custom-background { background-color: #030203; }
 <div id="site">
 	<div id="wrapper">
 		<header id="header" role="banner">
-		  <div id="site-name"><a href="../../../../index.html" title="Gögn" rel="home">Gögn</a></div><div id="header-message">Við vinnum með gögn</div><nav id="nav" role="navigation"><div class="menu"><ul id="menu-top-1" ><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a href="../../../../um.20" >Um þennan vef</a></li>
+		  <div id="site-name"><a href="../../../../index.html" title="Gögn" rel="home">Gögn</a></div><div id="header-message">Við vinnum með gögn</div><nav id="nav" role="navigation"><div class="menu"><ul id="menu-top-1" ><li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-82"><a href="../../../../um.21" >Um þennan vef</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-81"><a href="../../../../twitter-thjarkar/index.html" >Twitter þjarkar</a></li>
 <li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-265"><a title="Hundarnir í Reykjavík" href="index.html" >Hundarnir í Reykjavík</a></li>
-<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-368"><a href="../../../../marathon.18" >Maraþon 2012</a></li>
+<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-368"><a href="../../../../marathon.19" >Maraþon 2012</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-270"><a href="../../../../hafdu-samband/index.html" >Hafðu samband</a></li>
 </ul></div></nav>		</header>
 		<!-- / #header -->
@@ -95,7 +95,7 @@ body.custom-background { background-color: #030203; }
 				<p>Hvað ætli séu margir hundar í Reykjavík?</p>
 <p>16. maí síðastliðinn tók gildi <a title="Samþykkt um hundahald í Reykjavík" href="http://stjornartidindi.is/Advert.aspx?ID=77f66992-3362-44f2-86dd-91e5a6c368aa" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://stjornartidindi.is/Advert.aspx?ID=77f66992-3362-44f2-86dd-91e5a6c368aa']);">ný samþykkt um hundahald</a> í borginni. Þar er kveðið á um að skrá yfir veitt leyfi til hundahalds skuli birt á heimasíðu umhverfis- og samgöngusviðs Reykjavíkurborgar. Og nú er listinn kominn á netið <a title="Skrá yfir veitt hundaleyfi" href="http://www.reykjavik.is/desktopdefault.aspx/tabid-4772" onclick="javascript:_gaq.push(['_trackEvent','outbound-article','http://www.reykjavik.is/desktopdefault.aspx/tabid-4772']);">hér</a>.</p>
 <p>Þarna má leita eftir heimilisföngum. Það er svosem ágætt. En væri ekki gaman að sjá þetta á korti? Jú, það væri það einmitt.</p>
-<p>Þessvegna tók ég gögnin saman og útbjó kort sem er hér: <a href="../../../../hundar.20" >gogn.in/hundar</a>. Þar má sjá hversu mörg hundaleyfi eru í næsta nágrenni við hvaða punkt sem er í borgarlandinu.</p>
+<p>Þessvegna tók ég gögnin saman og útbjó kort sem er hér: <a href="../../../../hundar.21" >gogn.in/hundar</a>. Þar má sjá hversu mörg hundaleyfi eru í næsta nágrenni við hvaða punkt sem er í borgarlandinu.</p>
 <p><span id="more-261"></span>Smá tölfræði:</p>
 
 <table id="wp-table-reloaded-id-1-no-1" class="wp-table-reloaded wp-table-reloaded-id-1">
@@ -151,10 +151,10 @@ Bakkastaðir: 26<br />
 Smárarimi: 26<br />
 Vættaborgir: 24<br />
 Esjugrund: 23</p></blockquote>
-<p>Hér fyrir neðan geturðu leikið þér með kortið eða smellt <a href="../../../../hundar.20"  target="_blank">hér</a> til að opna það í öðrum glugga:</p>
+<p>Hér fyrir neðan geturðu leikið þér með kortið eða smellt <a href="../../../../hundar.21"  target="_blank">hér</a> til að opna það í öðrum glugga:</p>
 <div class="pageview">
 	
-  <iframe src="../../../../hundar.20" frameborder="0" style="" scrolling="auto" height="1000px" width="100%">Get a better browser!</iframe>
+  <iframe src="../../../../hundar.21" frameborder="0" style="" scrolling="auto" height="1000px" width="100%">Get a better browser!</iframe>
 </div>
 
 <p>&nbsp;</p>
@@ -229,7 +229,7 @@ Esjugrund: 23</p></blockquote>
 							<input type='hidden' name='comment_post_ID' value='261' id='comment_post_ID' />
 <input type='hidden' name='comment_parent' id='comment_parent' value='95' />
 						</p>
-						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="9b6ae7db38" /></p>					</form>
+						<p style="display: none;"><input type="hidden" id="akismet_comment_nonce" name="akismet_comment_nonce" value="3d54328dda" /></p>					</form>
 							</div><!-- #respond -->
 				<script type="text/javascript">
 		jQuery(document).ready(function () {
@@ -258,27 +258,21 @@ Esjugrund: 23</p></blockquote>
 		
 		
 					<aside id="primary" role="complementary">
-				<section id="pu_facebook_widget-2" class="widget pu_facebook_widget">            <div class="fb-like-box" 
-            	data-href="http://www.facebook.com/gogn.in" 
-            	data-width="292" 
-            	data-show-faces="false" 
-            	data-stream="false" 
-            	data-header="false"></div>
-		</section>		<section id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="title">Nýlegt</h3>		<ul>
+						<section id="recent-posts-2" class="widget widget_recent_entries">		<h3 class="title">Nýlegt</h3>		<ul>
+					<li>
+				<a href="../../../../2013/04/27/kosningaspa-gogn-in-fyrir-althingiskosningar-27-april-2013/index.html" title="Kosningaspá gogn.in fyrir alþingiskosningar 27. apríl, 2013">Kosningaspá gogn.in fyrir alþingiskosningar 27. apríl, 2013</a>
+						</li>
+					<li>
+				<a href="../../../../2013/04/27/fylgi-flokkana-a-kjordag/index.html" title="Fylgi flokkanna á kjördag">Fylgi flokkanna á kjördag</a>
+						</li>
+					<li>
+				<a href="../../../../2013/04/26/fylgi-flokkanna/index.html" title="Fylgi flokkanna">Fylgi flokkanna</a>
+						</li>
 					<li>
 				<a href="../../../../2013/04/15/kosningaprof-dv/index.html" title="Kosningapróf DV">Kosningapróf DV</a>
 						</li>
 					<li>
-				<a href="../../../../2013/01/15/heradsdomar.11" title="Héraðsdómar">Héraðsdómar</a>
-						</li>
-					<li>
-				<a href="../../../11/16/utankjorfundaratkvaedi-i-reykjavik-2003-2012/index.html" title="Utankjörfundaratkvæði í Reykjavík 2003-2012">Utankjörfundaratkvæði í Reykjavík 2003-2012</a>
-						</li>
-					<li>
-				<a href="../../../09/25/twitter-thjarkur-med-opnum-gognum-a-skemman-is/index.html" title="Twitter þjarkur með opnum gögnum á skemman.is">Twitter þjarkur með opnum gögnum á skemman.is</a>
-						</li>
-					<li>
-				<a href="../../../09/03/urslit-i-reykjavikurmarathoni-2012/index.html" title="Úrslit í Reykjavíkurmaraþoni 2012">Úrslit í Reykjavíkurmaraþoni 2012</a>
+				<a href="../../../../2013/01/15/heradsdomar.12" title="Héraðsdómar">Héraðsdómar</a>
 						</li>
 				</ul>
 		</section><section id="archives-2" class="widget widget_archive"><h3 class="title">Safn</h3>		<ul>
@@ -376,14 +370,7 @@ jQuery(document).ready(function($){
 	$("#wp-table-reloaded-id-1-no-1").dataTable({"oLanguage":{"sUrl": "http://gogn.in/wp-content/plugins/wp-table-reloaded/languages/datatables/lang-en_US.txt"}, "aaSorting": [], "bSortClasses": false, "asStripClasses":['even','odd'], "bPaginate": false, "bFilter": false, "bInfo": false});
 });
 /* ]]> */
-</script><div id="fb-root"></div>
-				<script>(function(d, s, id) {
-				  var js, fjs = d.getElementsByTagName(s)[0];
-				  if (d.getElementById(id)) return;
-				  js = d.createElement(s); js.id = id;
-				  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1&appId=";
-				  fjs.parentNode.insertBefore(js, fjs);
-				}(document, 'script', 'facebook-jssdk'));</script><script type='text/javascript' src='http://gogn.in/wp-includes/js/comment-reply.min.js?ver=3.5.1'></script>
+</script><script type='text/javascript' src='http://gogn.in/wp-includes/js/comment-reply.min.js?ver=3.5.1'></script>
   <script type="text/javascript">
     (function() {
       var t   = document.createElement('script');
