@@ -1,0 +1,121 @@
+<!;DOCTYPE; html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title>Maraþon 2012 - gogn.in</title>
+	<meta name="description" content="">
+	<meta name="author" content="Páll Hilmarsson">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<link rel="stylesheet" href="marathon/stylesheets/base.css">
+	<link rel="stylesheet" href="marathon/stylesheets/skeleton.css">
+	<link rel="stylesheet" href="marathon/stylesheets/layout.css">
+  <link type="text/css" href="marathon/css/ui-lightness/jquery-ui-1.8.23.custom.css" rel="stylesheet" />
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+
+	<script type="text/javascript" src="marathon/js/jquery-1.8.0.min.js"></script>
+	<script type="text/javascript" src="marathon/js/jquery-ui-1.8.23.custom.min.js"></script>
+<meta property="og:title" content="G&#xf6;gn - Reykjav&#xed;kurmara&#xfe;on 2012" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://gogn.in/marathon" />
+<meta property="og:image" content="" />
+<meta property="og:site_name" content="G&#xf6;gn: Reykjav&#xed;kurmara&#xfe;on 2012" />
+<meta property="fb:admins" content="222408197873245" />
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31101018-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+</head>
+<body>
+
+	<div class="container">
+		<div class="sixteen columns">
+			<h1 class="remove-bottom" style="margin-top: 40px">Maraþon 2012</h1>
+			<h5>Framleitt af Páli Hilmarssyni fyrir <a href="index.html">gogn.in</a></h5>
+			<hr />
+		<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+			<script>
+
+	function Getnames(filename)
+{
+    $.getJSON(filename, function(data){
+	var names = [];
+	$.each(data, function(i,s){
+            names.push(s.name);
+        });
+    var numbers = [];
+	$.each(data, function(i,s){
+            numbers.push(s.nr);
+        });
+        names.sort();
+        numbers.sort();
+        $( "#nafn" ).autocomplete({
+			source: names, minLength:1
+		});
+        $( "#nr" ).autocomplete({
+			source: numbers, minLength:1
+		});
+    });
+}
+
+Getnames('marathon_2012_lokaurslit-5.json');
+
+
+		
+	</script>
+	<div>Sláðu inn nafn eða keppnisnúmer þess sem þú vilt sjá upplýsingar um. Athugaðu að hér eru einungis birtir tímar fyrir heilt maraþon, og aðeins hjá þeim sem luku hlaupi. <br /><br />Frekari upplýsingar má fá <a href="2012/09/03/urslit-i-reykjavikurmarathoni-2012/index.html">hér</a><br /><br /><br /></div>
+	<form action="http://gogn.in/marathon/values.php" id="searchform" method="get">
+    <div>
+    	<label for="nafn">Nafn: </label>
+	<input name="nafn" id="nafn" />
+
+      <input type="submit" value="Finna"/>
+
+      
+    </div>
+    <div>eða</div>
+  </form>
+  	<form action="http://gogn.in/marathon/values.php" id="searchform" method="get">
+    <div>
+    	<label for="nafn">Keppnisnúmer: </label>
+	<input name="nr" id="nr" />
+
+      <input type="submit" value="Finna"/>
+
+      
+    </div>
+  </form>
+</div>
+	<div class="fb-like" data-href="http://gogn.in/marathon" data-send="true" data-width="450" data-show-faces="false"></div>
+    	<br/><br /><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://gogn.in/marathon" data-text="Gögn: Reykjavíkurmaraþon 2012" data-via="pallih">Tweet</a>
+<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+
+	</div>
+
+
+</body>
+</html>
