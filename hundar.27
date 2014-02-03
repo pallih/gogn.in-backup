@@ -1,0 +1,286 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    
+    <head>
+        <meta charset="utf-8">
+        <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+        <title>Hundar í nágrenninu</title>
+        <link href="hundar/hundar.css" media="screen"
+        rel="stylesheet" type="text/css" />
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"
+        type="text/javascript"></script>
+        <script src="http://maps.googleapis.com/maps/api/js?sensor=false"
+        type="text/javascript"></script>
+	<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-31101018-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+    </head>
+    
+    <body>
+        <div id="title">Hundar í nágrenninu</div>
+        <p style="font-size: 80%;">Unnið af Páli Hilmarssyni, fyrir
+            <a href="index.html">gogn.in</a>
+        </p>
+        <p>
+            <br />
+        </p>
+        <p>Dragðu pinnann í miðju hringsins á þann stað sem þú vilt fá upplýsingar um. Inni í hringnum er merkt við þau hús
+            þar sem leyfi er fyrir hundahaldi, í 500 metra radíus frá miðju.
+            <br />Stilltu radíusinn hér:</p>
+        <div class="buttons">
+            <button type="button" value="100">100 m</button>
+            <button type="button" value="300">300 m</button>
+            <button class="selected" autofocus type="button" value="500">500 m</button>
+            <button type="button" value="1000">1000 m</button>
+            <button type="button" value="allt">Öll Reykjavík</button>
+        </div>
+        <div id="map"></div>
+        <div class="list"></div>
+        
+        <script type="text/javascript">
+            var lng = 64.1467437744;
+            var lat = -21.939365387;
+            var radius = 500;
+
+
+            var cartodb_layer = {
+                getTileUrl: function (coord, zoom) {
+                    return "https://pallih.cartodb.com/tiles/hundar_rvk_geocoded_/" + zoom + "/" + coord.x + "/" + coord.y + ".png" + "?sql=SELECT * FROM hundar_rvk_geocoded_ WHERE ST_DWithin(ST_GeogFromText('SRID=4326;POINT(" + newlng + " " + newlat + ")'), geography(the_geom)," + radius + ")";
+                },
+                tileSize: new google.maps.Size(256, 256)
+            };
+
+            var cartodb_layer = {
+                getTileUrl: function (coord, zoom) {
+                    return "https://pallih.cartodb.com/tiles/hundar_rvk_geocoded_/" + zoom + "/" + coord.x + "/" + coord.y + ".png" + "?sql=SELECT * FROM hundar_rvk_geocoded_ WHERE ST_DWithin(ST_GeogFromText('SRID=4326;POINT(-21.939365387 64.1467437744)'), geography(the_geom), " + radius + ")";
+                },
+                tileSize: new google.maps.Size(256, 256)
+            };
+
+
+
+            var getdata = function (newlat, newlng, radius) {
+
+                    $.getJSON("http://pallih.cartodb.com/api/v2/sql?q=SELECT heimilisfang_nf FROM hundar_rvk_geocoded_ WHERE ST_DWithin(ST_GeogFromText('SRID=4326;POINT(" + newlng + " " + newlat + ")'), geography(the_geom), " + radius + ") ORDER BY heimilisfang_nf", function (data) {
+                        var items = [];
+
+                        if (!(radius == '30000')) {
+                            items.push('<b style="color:magenta;">Fjöldi leyfa innan ' + radius + ' metra: ' + data.total_rows + '</b><br /><br />');
+                        } else {
+                            items.push('<b>Fjöldi leyfa í allri Reykjavík: ' + data.total_rows + '</b><br /><br />');
+
+                        }
+                        $.each(data.rows, function (key, val) {
+                            items.push(val.heimilisfang_nf + "<b style='color:magenta;'>&nbsp;•&nbsp;</b>");
+                        });
+                        $('div.list').empty();
+                        b = items.join('')
+                        $('div.list').append(b);
+                        $('div.list').append('<br><br><br');
+
+                    });
+
+
+                }
+
+            var setradius = function (newlat, newlng, radius) {
+                    circle.setMap(null);
+                    this.dragable_marker.setMap(null);
+                    var radius = radius
+
+
+                    if (!(radius == 'allt')) {
+                        resetLayer(newlat, newlng, radius);
+
+                        getdata(newlat, newlng, radius);
+
+                        myLatlng = new google.maps.LatLng(newlat, newlng);
+                        circle = new google.maps.Circle({
+                            map: carto_map,
+                            clickable: false,
+                            radius: parseInt(radius),
+                            fillColor: '#33f',
+                            fillOpacity: .2,
+                            strokeColor: '#313131',
+                            strokeOpacity: .6,
+                            strokeWeight: .8
+                        });
+
+                        dragable_marker = new google.maps.Marker({
+                            position: myLatlng,
+                            map: carto_map,
+                            draggable: true,
+                            icon: "http://maps.google.com/mapfiles/marker_white.png"
+                        });
+
+                        circle.bindTo('center', dragable_marker, 'position');
+
+                        google.maps.event.addListener(dragable_marker, 'dragend', function () {
+                            newlng = dragable_marker.position.lng();
+                            newlat = dragable_marker.position.lat();
+                            myLatlng = new google.maps.LatLng(newlat, newlng);
+                            resetLayer(newlat, newlng, radius);
+                            getdata(newlat, newlng, radius);
+                        });
+                    } else {
+                        var radius = (30000)
+                        resetLayer(newlat, newlng, radius);
+                        getdata(newlat, newlng, radius);
+                    }
+
+                }
+
+            var resetLayer = function (newlat, newlng, radius) {
+                    var cartodb_layer = {
+                        getTileUrl: function (coord, zoom) {
+                            return "https://pallih.cartodb.com/tiles/hundar_rvk_geocoded_/" + zoom + "/" + coord.x + "/" + coord.y + ".png" + "?sql=SELECT * FROM hundar_rvk_geocoded_ WHERE ST_DWithin(ST_GeogFromText('SRID=4326;POINT(" + newlng + " " + newlat + ")'), geography(the_geom), " + radius + ")";
+                        },
+                        tileSize: new google.maps.Size(256, 256)
+                    };
+                    cartodb_imagemaptype = new google.maps.ImageMapType(cartodb_layer);
+                    carto_map.overlayMapTypes.insertAt(0, cartodb_imagemaptype);
+                    carto_map.overlayMapTypes.pop(1);
+
+                }
+
+                myLatlng = new google.maps.LatLng(64.1467437744, -21.939365387);
+            var cartodbMapOptions = {
+                zoom: 14,
+                center: new google.maps.LatLng(64.1467437744, -21.939365387),
+                disableDefaultUI: false,
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            }
+
+            carto_map = new google.maps.Map(document.getElementById("map"), cartodbMapOptions);
+
+            map_style = [{
+                stylers: [{
+                    saturation: -65
+                }, {
+                    gamma: 1.52
+                }]
+            }, {
+                featureType: "administrative",
+                elementType: "all",
+                stylers: [{
+                    visibility: "off"
+                }]
+            }, {
+                featureType: "water",
+                elementType: "all",
+                stylers: [
+      { visibility: "simplified" },
+      { invert_lightness: true },
+      { lightness: -99 }
+    ]
+            },  {
+                featureType: "road",
+                stylers: [{
+                    visibility: "on"
+                }, {
+                    saturation: -99
+                }, {
+                    gamma: 1.22
+                }]
+            }, {
+                featureType: "poi",
+                elementType: "labels",
+                stylers: [{
+                    visibility: "off"
+                }]
+            }, {
+                featureType: "road.arterial",
+                stylers: [{
+                    visibility: 'on'
+                }]
+            }, {
+                featureType: "road.local",
+                elementType: "all",
+                stylers: [{
+                    visibility: 'on'
+                }, {
+                    gamma: 0.65
+                }]
+            }, {
+                featureType: "transit",
+                stylers: [{
+                    visibility: 'off'
+                }]
+            }, {
+                featureType: "road",
+                elementType: "labels",
+                stylers: [{
+                    visibility: 'on'
+                }]
+            }, {
+                featureType: "poi",
+                stylers: [{
+                    visibility: "off"
+                }]
+            }];
+
+            carto_map.setOptions({
+               styles: map_style
+            });
+
+
+
+            var circle = new google.maps.Circle({
+                map: carto_map,
+                clickable: false,
+                radius: 500,
+                fillColor: '#a539ab',
+                fillOpacity: .10,
+                strokeColor: '#313131',
+                strokeOpacity: .6,
+                strokeWeight: .7,
+            });
+
+            var dragable_marker = new google.maps.Marker({
+                position: myLatlng,
+                map: carto_map,
+                draggable: true,
+                icon: "http://maps.google.com/mapfiles/marker_white.png"
+            });
+
+            circle.bindTo('center', dragable_marker, 'position');
+
+            cartodb_imagemaptype = new google.maps.ImageMapType(cartodb_layer);
+            carto_map.overlayMapTypes.insertAt(0, cartodb_imagemaptype);
+
+            google.maps.event.addListener(dragable_marker, 'dragend', function () {
+                newlng = dragable_marker.position.lng();
+                newlat = dragable_marker.position.lat();
+                myLatlng = new google.maps.LatLng(newlat, newlng);
+                resetLayer(newlat, newlng, radius);
+                getdata(newlat, newlng, radius);
+            });
+
+            getdata(64.1467437744, -21.939365387, radius);
+
+
+            $('.buttons button').click(function () {
+                $(this).focus();
+                radius = $(this).val();
+                $(this).closest('div').find('button.selected').removeClass('selected');
+                $(this).addClass('selected');
+                newlat = dragable_marker.position.lat()
+                newlng = dragable_marker.position.lng()
+                myLatlng = new google.maps.LatLng(newlat, newlng);
+                setradius(newlat, newlng, radius);
+
+            });
+        </script>
+    </body>
+
+</html>
