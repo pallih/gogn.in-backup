@@ -158,14 +158,14 @@ p {
 }
 
 blockquote {
-	background: url(img/sprite.png) 0 -85px no-repeat;
+	background: url(http://gogn.in/wp-content/themes/blaskan/img/sprite.png) 0 -85px no-repeat;
 	color: #888;
 	padding: 0 35px;
 	margin: 0 0 20px;
 }
 
 .multiplebgs blockquote {
-	background-image: url(img/sprite.png), url(img/sprite.png);
+	background-image: url(http://gogn.in/wp-content/themes/blaskan/img/sprite.png), url(http://gogn.in/wp-content/themes/blaskan/img/sprite.png);
 	background-repeat: no-repeat;
 	background-position: 0 -85px, bottom right;
 }
@@ -1077,7 +1077,7 @@ nav li {
 }
 
 .post-nav a {
-  background: url(img/sprite.png) no-repeat;
+  background: url(http://gogn.in/wp-content/themes/blaskan/img/sprite.png) no-repeat;
 	color: #999;
 	display: inline-block;
 	padding: 0 0 0 26px;
@@ -1128,7 +1128,7 @@ nav li {
 }
 
 #searchsubmit {
-  background: url(img/sprite.png) -3px 7px no-repeat;
+  background: url(http://gogn.in/wp-content/themes/blaskan/img/sprite.png) -3px 7px no-repeat;
   filter: none;
 	-ms-filter: none;
 	border: 0;
